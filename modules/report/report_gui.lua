@@ -13,7 +13,7 @@ mReport.gui.attached = {}
 
 function mReport.gui.init()
 
-	mReport.gui.window = guiCreateWindow(nil, nil, nil, nil, "mReport")
+	mReport.gui.window = guiCreateWindow(nil, nil, nil, nil, "Report")
 	local mainVlo = guiCreateVerticalLayout(nil, GS.mrg2 + GS.mrgT, nil, nil, GS.mrg3, false, mReport.gui.window)
 	guiVerticalLayoutSetHorizontalAlign(mainVlo, "center")
 	guiSetTableProperty(mainVlo, "UnifiedSize", {{1, -GS.mrg2*2}, {1, -GS.mrg2*2}})
