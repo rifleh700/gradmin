@@ -5,6 +5,15 @@ function table.unpack(t)
 	return unpack(t, nil, t.n)
 end
 
+-- hard
+function table.hunpack(t)
+	check("?t")
+
+	if not t then return end
+
+	return unpack(t, nil, t.n)
+end
+
 function table.pack(...)
 	return {n = select("#", ...), ...}
 end

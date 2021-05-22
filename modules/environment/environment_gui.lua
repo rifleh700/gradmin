@@ -269,29 +269,21 @@ function mEnv.gui.refresh()
 	guiSetText(mEnv.gui.fcdVLbl, mEnv.data.farClipDistanse)
 	guiSetText(mEnv.gui.fdVLbl, mEnv.data.fogDistance)
 
-	local h, m = table.unpack(mEnv.data.time)
+	local h, m = table.hunpack(mEnv.data.time)
 	guiSetText(mEnv.gui.timeVLbl, h and formatGameTime(h, m) or nil)
 
 	local weather = mEnv.data.weather
-	if weather then
-		guiSetText(mEnv.gui.weatherVLbl, formatNameID(getWeatherName(weather), weather))
-	else
-		guiSetText(mEnv.gui.weatherVLbl)
-	end
+	guiSetText(mEnv.gui.weatherVLbl, weather and formatNameID(getWeatherName(weather), weather) or nil)
 
-	if mEnv.data.minuteDuration then
-		guiSetText(mEnv.gui.mdVLbl, formatDuration(mEnv.data.minuteDuration/1000))
-	else
-		guiSetText(mEnv.gui.mdVLbl)
-	end
+	guiSetText(mEnv.gui.mdVLbl, mEnv.data.minuteDuration and formatDuration(mEnv.data.minuteDuration/1000) or nil)
 
-	if mEnv.data.clouds ~= nil then
-		guiCheckBoxSetSelected(mEnv.gui.cloudsChk, mEnv.data.clouds)
-	end
+	local clouds = mEnv.data.clouds
+	if clouds == nil then clouds = true end
+	guiCheckBoxSetSelected(mEnv.gui.cloudsChk, clouds)
 
 	guiSetText(mEnv.gui.heatHazeVLbl, mEnv.data.heatHaze)
 
-	local r1, g1, b1, r2, g2, b2 = unpack(mEnv.data.skyGradient)
+	local r1, g1, b1, r2, g2, b2 = table.hunpack(mEnv.data.skyGradient)
 	if r1 then
 		guiColorPickerSetColor(mEnv.gui.skyGradClrp1, r1, g1, b1)
 		guiColorPickerSetColor(mEnv.gui.skyGradClrp2, r2, g2, b2)
@@ -300,7 +292,7 @@ function mEnv.gui.refresh()
 		guiColorPickerSetColor(mEnv.gui.skyGradClrp2, nil)
 	end
 
-	r1, g1, b1, r2, g2, b2 = unpack(mEnv.data.sunColor)
+	r1, g1, b1, r2, g2, b2 = table.hunpack(mEnv.data.sunColor)
 	if r1 then
 		guiColorPickerSetColor(mEnv.gui.sunClrClrp1, r1, g1, b1)
 		guiColorPickerSetColor(mEnv.gui.sunClrClrp2, r2, g2, b2)
@@ -309,7 +301,7 @@ function mEnv.gui.refresh()
 		guiColorPickerSetColor(mEnv.gui.sunClrClrp2, nil)
 	end
 
-	r1, g1, b1 = unpack(mEnv.data.waterColor)
+	r1, g1, b1 = table.hunpack(mEnv.data.waterColor)
 	if r1 then
 		guiColorPickerSetColor(mEnv.gui.waterClrClrp, r1, g1, b1)
 	else
@@ -322,9 +314,9 @@ function mEnv.gui.refresh()
 	guiSetText(mEnv.gui.sunSizeVLbl, mEnv.data.sunSize)
 	guiSetText(mEnv.gui.waveHeightVLbl, mEnv.data.waveHeight)
 
-	if mEnv.data.trafficLights ~= nil then
-		guiCheckBoxSetSelected(mEnv.gui.trafficChk, mEnv.data.trafficLights)
-	end
+	local traffic = mEnv.data.trafficLights
+	if traffic == nil then traffic = true end
+	guiCheckBoxSetSelected(mEnv.gui.trafficChk, traffic)
 
 	guiSetText(mEnv.gui.trafficStateVLbl, mEnv.data.trafficLightsState)
 	
