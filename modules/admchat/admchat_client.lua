@@ -50,7 +50,8 @@ end
 function mAdmChat.requestHistory()
 	if mAdmChat.full then return false end
 
-	local lastID = mAdmChat.history[#mAdmChat.history].id
+	local size = #mAdmChat.history
+	local lastID = size > 0 and mAdmChat.history[size].id or nil
 	if not cSync.request("AdmChat.history", lastID) then return false end
 	
 	return true
