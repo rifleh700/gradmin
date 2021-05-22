@@ -1,0 +1,192 @@
+<interiors>
+	
+	<group name="Other">
+		<interior name="Main interior"						interior="0"			posX="0"				posY="0"				posZ="4"				rot="0"		/>
+	</group>
+	
+	<group name ="24/7">
+		<interior name="24/7 Shop 1"						interior="4"			posX="-27.3769"			posY="-27.6416"			posZ="1003.5570"		rot="0"		/>
+		<interior name="24/7 Shop 2"						interior="6"			posX="-26.7180"			posY="-55.9860"			posZ="1003.5470"		rot="0"		/>
+		<interior name="24/7 Shop 3"						interior="10"			posX="6.0780"			posY="-28.6330"			posZ="1003.5490"		rot="0"		/>
+		<interior name="24/7 Shop 4"						interior="16"			posX="-25.3730"			posY="-139.6540"		posZ="1003.5470"		rot="0"		/>
+		<interior name="24/7 Shop 5"						interior="17"			posX="-25.3930"			posY="-185.9110"		posZ="1003.5470"		rot="0"		/>
+		<interior name="24/7 Shop 6"						interior="18"			posX="-30.9460"			posY="-89.6090"			posZ="1003.5490"		rot="0"		/>
+	</group>
+
+	<group name="Airport">
+		<interior name="Francis Airport (Front Ext.)"		interior="14"			posX="-1827.1473"		posY="7.2074"			posZ="1061.1435"		rot="0"		/>
+		<interior name="Francis Airport (Ticket Sales)"		interior="14"			posX="-1855.5687"		posY="41.2631"			posZ="1061.1435"		rot="0"		/>
+		<interior name="Shamal cabin"						interior="1"			posX="1.6127"			posY="34.7411"			posZ="1199.0"			rot="0"		/>
+		<interior name="Andromada Cargo Hold"				interior="9"			posX="315.48"			posY="984.13"			posZ="1959.11"			rot="0"		/>
+	</group>
+
+	<group name="Ammunations">
+		<interior name="Ammu-nation 1"						interior="1"			posX="289.7870"			posY="-35.7190"			posZ="1003.5160"		rot="0"		/>
+		<interior name="Ammu-Nation 2"						interior="4"			posX="285.8000"			posY="-84.5470"			posZ="1001.5390"		rot="0"		/>
+		<interior name="Ammu-Nation 3"						interior="6"			posX="297.4460"			posY="-109.9680"		posZ="1001.5160"		rot="0"		/>
+		<interior name="Ammu-Nation 4"						interior="6"			posX="317.2380"			posY="-168.0520"		posZ="999.5930"			rot="0"		/>
+		<interior name="Ammu-Nation 5 (2 Floors)"			interior="7"			posX="315.3850"			posY="-142.2420"		posZ="999.6010"			rot="0"		/>
+	</group>
+	
+	<group name="Burglary Houses">
+		<interior name="Burglary House 1"					interior="1"			posX="224.6351"			posY="1289.012"			posZ="1082.141"			rot="0"		/>
+		<interior name="Burglary House 2"					interior="2"			posX="225.756"			posY="1240.000"			posZ="1082.149"			rot="0"		/>
+		<interior name="Burglary House 3"					interior="2"			posX="447.470"			posY="1398.348"			posZ="1084.305"			rot="0"		/>
+		<interior name="Burglary House 4"					interior="2"			posX="491.740"			posY="1400.541"			posZ="1080.265"			rot="0"		/>
+		<interior name="Burglary House 5"					interior="3"			posX="234.733"			posY="1190.391"			posZ="1080.258"			rot="0"		/>
+		<interior name="Burglary House 6"					interior="4"			posX="-262.91"			posY="1454.966"			posZ="1084.367"			rot="0"		/>
+		<interior name="Burglary House 7"					interior="4"			posX="221.4296"			posY="1142.423"			posZ="1082.609"			rot="0"		/>
+		<interior name="Burglary House 8"					interior="4"			posX="261.1168"			posY="1286.519"			posZ="1080.258"			rot="0"		/>
+		<interior name="Burglary House 9"					interior="5"			posX="22.79996"			posY="1404.642"			posZ="1084.43"			rot="0"		/>
+		<interior name="Burglary House 10"					interior="5"			posX="228.9003"			posY="1114.477"			posZ="1080.992"			rot="0"		/>
+		<interior name="Burglary House 11"					interior="5"			posX="140.5631"			posY="1369.051"			posZ="1083.864"			rot="0"		/>
+		<interior name="Burglary House 12"					interior="9"			posX="85.32596"			posY="1323.585"			posZ="1083.859"			rot="0"		/>
+		<interior name="Burglary House 13"					interior="9"			posX="260.3189"			posY="1239.663"			posZ="1084.258"			rot="0"		/>
+		<interior name="Burglary House 14"					interior="10"			posX="21.241"			posY="1342.153"			posZ="1084.375"			rot="0"		/>
+		<interior name="Burglary House 15"					interior="6"			posX="234.319"			posY="1066.455"			posZ="1084.208"			rot="0"		/>
+		<interior name="Burglary House 16"					interior="6"			posX="-69.049"			posY="1354.056"			posZ="1080.211"			rot="0"		/>
+		<interior name="Burglary House 17"					interior="15"			posX="-285.711"			posY="1470.697"			posZ="1084.375"			rot="0"		/>
+		<interior name="Burglary House 18"					interior="15"			posX="327.808"			posY="1479.74"			posZ="1084.438"			rot="0"		/>
+		<interior name="Burglary House 19"					interior="15"			posX="375.572"			posY="1417.439"			posZ="1081.328"			rot="0"		/>
+		<interior name="Burglary House 20"					interior="15"			posX="384.644"			posY="1471.479"			posZ="1080.195"			rot="0"		/>
+		<interior name="Burglary House 21"					interior="15"			posX="295.467"			posY="1474.697"			posZ="1080.258"			rot="0"		/>
+		<interior name="Burglary House 22"					interior="8"			posX="-42.490"			posY="1407.644"			posZ="1084.43"			rot="0"		/>
+	</group>
+
+	<group name="Safe Houses">
+		<interior name="Safe House 3"						interior="6"			posX="2333.0330"		posY="-1073.9600"		posZ="1049.0230"		rot="0"		/>
+		<interior name="Safe House 4"						interior="1"			posX="2216.5400"		posY="-1076.2900"		posZ="1050.4840"		rot="0"		/>
+		<interior name="Safe House 5"						interior="6"			posX="2194.2910"		posY="-1204.0150"		posZ="1049.0230"		rot="0"		/>
+		<interior name="Safe House 6"						interior="6"			posX="2308.8710"		posY="-1210.7170"		posZ="1049.0230"		rot="0"		/>
+		<interior name="Unknown Safe House"					interior="9"			posX="2253.1740"		posY="-1139.0100"		posZ="1050.6330"		rot="0"		/>
+		<interior name="Hashbury Safe House"				interior="10"			posX="2264.5231"		posY="-1210.5229"		posZ="1049.0234"		rot="0"		/>
+		<interior name="Safe House 7"						interior="12"			posX="2237.2970"		posY="-1077.9250"		posZ="1049.0230"		rot="0"		/>
+		<interior name="Modern Safe House"					interior="12"			posX="2324.4990"		posY="-1147.0710"		posZ="1050.7100"		rot="0"		/>
+	</group>
+
+	<group name="Modding shops">
+		<interior name="Transfender"						interior="1"			posX="621.7850"			posY="-12.5417"			posZ="1000.9220"		rot="0"		/>
+		<interior name="Loco Low Co."						interior="2"			posX="612.5910"			posY="-75.6370"			posZ="997.9920"			rot="0"		/>
+		<interior name="Wheel Arch Angels"					interior="3"			posX="614.3889"			posY="-124.0991"		posZ="997.9950"			rot="0"		/>
+	</group>
+	
+	<group name="Restaurants/Bars">
+		<interior name="Restaurant 1"						interior="1"			posX="446.6941"			posY="-9.7977"			posZ="1000.7340"		rot="0"		/>
+		<interior name="Restaurant 2"						interior="6"			posX="443.9810"			posY="-65.2190"			posZ="1050.0000"		rot="0"		/>
+		<interior name="Diner 1"							interior="5"			posX="448.7435"			posY="-110.0457"		posZ="1000.0772"		rot="0"		/>
+		<interior name="Diner 2"							interior="4"			posX="460.0"			posY="-88.43"			posZ="999.62"			rot="0"		/>
+		<interior name="The Wellcome Pump"					interior="1"			posX="681.65"			posY="-452.86"			posZ="-25.62"			rot="0"		/>
+		<interior name="Burger Shot"						interior="10"			posX="366.4220"			posY="-73.4700"			posZ="1001.5080"		rot="0"		/>
+		<interior name="Cluckin' Bell"						interior="9"			posX="365.67"			posY="-11.61"			posZ="1000.87"			rot="0"		/>
+		<interior name="Well Stacked Pizza Co."				interior="5"			posX="377.7758"			posY="-126.2766"		posZ="1001.4920"		rot="0"		/>
+		<interior name="Rusty Brown's - Ring Donuts"		interior="17"			posX="377.0030"			posY="-192.5070"		posZ="1000.6330"		rot="0"		/>
+		<interior name="Ten Green Bottles Bar"				interior="11"			posX="502.3310"			posY="-70.6820"			posZ="998.7570"			rot="0"		/>
+		<interior name="Lil Probe Inn"						interior="18"			posX="-227.0280"		posY="1401.2290"		posZ="27.7690"			rot="0"		/>
+		<interior name="Club"								interior="17"			posX="493.4687"			posY="-23.0080"			posZ="1000.6796"		rot="0"		/>
+		<interior name="Jizzy's Pleasure Domes"				interior="3"			posX="-2636.7190"		posY="1402.9170"		posZ="906.4609"			rot="0"		/>
+		<interior name="The Pig Pen"						interior="2"			posX="1213.4330"		posY="-6.6830"			posZ="1000.9220"		rot="0"		/>
+	</group>
+
+	<group name="Clothes shops">
+		<interior name="Sub Urban"							interior="1"			posX="203.8173"			posY="-46.5385"			posZ="1001.8050"		rot="0"		/>
+		<interior name="Pro-Laps"							interior="3"			posX="207.3560"			posY="-138.0029"		posZ="1003.3130"		rot="0"		/>
+		<interior name="Victim"								interior="5"			posX="221.3310"			posY="-6.6169"			posZ="1005.1977"		rot="0"		/>
+		<interior name="Didier Sachs"						interior="14"			posX="204.1789"			posY="-165.8740"		posZ="1000.5230"		rot="0"		/>
+		<interior name="Binco"								interior="15"			posX="207.5430"			posY="-109.0040"		posZ="1005.1330"		rot="0"		/>
+		<interior name="Zip"								interior="18"			posX="161.4620"			posY="-91.3940"			posZ="1001.8050"		rot="0"		/>
+	</group>
+
+	<group name="Girlfriends">
+		<interior name="Denise's Place"						interior="1"			posX="244.0892"			posY="304.8456"			posZ="999.1484"			rot="0"		/>
+		<interior name="Millie's Bedroom"					interior="6"			posX="344.5200"			posY="304.8210"			posZ="999.1480"			rot="0"		/>
+		<interior name="Katie's Place"						interior="2"			posX="267.2290"			posY="304.7100"			posZ="999.1480"			rot="0"		/>
+		<interior name="Helena's Place"						interior="3"			posX="292.4459"			posY="308.7790"			posZ="999.1484"			rot="0"		/>
+		<interior name="Michelle's Place"					interior="4"			posX="302.6404"			posY="304.8048"			posZ="999.1484"			rot="0"		/>
+		<interior name="Police Station (Barbara's)"			interior="5"			posX="322.72"			posY="306.43"			posZ="999.15"			rot="0"		/>
+	</group>
+
+	<group name="Gyms">
+		<interior name="Ganton Gym"							interior="5"			posX="768.0793"			posY="5.8606"			posZ="1000.7160"		rot="0"		/>
+		<interior name="Cobra Marital Arts Gym"				interior="6"			posX="774.0870"			posY="-47.9830"			posZ="1000.5860"		rot="0"		/>
+		<interior name="Below the Belt Gym"					interior="7"			posX="774.2430"			posY="-76.0090"			posZ="1000.6540"		rot="0"		/>
+	</group>
+
+	<group name="Barber/Tattoo">
+		<interior name="Reece's Barbershop"					interior="2"			posX="612.5910"			posY="-75.6370"			posZ="997.9920"			rot="0"		/>
+		<interior name="Gay Gordo's Barbershop"				interior="3"			posX="418.6530"			posY="-82.6390"			posZ="1001.8050"		rot="0"		/>
+		<interior name="Macisla's Barbershop"				interior="12"			posX="411.6410"			posY="-51.8460"			posZ="1001.8980"		rot="0"		/>
+		<interior name="LV Tattoo Parlour"					interior="3"			posX="-204.4390"		posY="-43.6520"			posZ="1002.2990"		rot="0"		/>
+		<interior name="LS Tattoo Parlour"					interior="16"			posX="-204.5580"		posY="-25.6970"			posZ="1002.2730"		rot="0"		/>
+		<interior name="Hemlock Tattoo"						interior="17"			posX="377.0030"			posY="-192.5070"		posZ="1000.6330"		rot="0"		/>
+	</group>
+
+	<group name="Police">
+		<interior name="LSPD HQ"							interior="6"			posX="246.4510"			posY="65.5860"			posZ="1003.6410"		rot="0"		/>
+		<interior name="SFPD HQ"							interior="10"			posX="246.4410"			posY="112.1640"			posZ="1003.2190"		rot="0"		/>
+		<interior name="LVPD HQ"							interior="3"			posX="289.7703"			posY="171.7460"			posZ="1007.1790"		rot="0"		/>
+	</group>
+
+	<group name="Schools">
+		<interior name="Bike School"						interior="3"			posX="1494.3350"		posY="1305.6510"		posZ="1093.2890"		rot="0"		/>
+		<interior name="Driving School"						interior="3"			posX="-2027.9200"		posY="-105.1830"		posZ="1035.1720"		rot="0"		/>
+	</group>
+
+	<group name="Stadiums">
+		<interior name="8-Track Stadium"					interior="7"			posX="-1417.8720"		posY="-276.4260"		posZ="1051.1910"		rot="0"		/>
+		<interior name="Trials Stadium"						interior="1"			posX="-1401.13"			posY="106.110"			posZ="1032.273"			rot="0"		/>
+		<interior name="Dirtbike Stadium"					interior="4"			posX="-1435.8690"		posY="-662.2505"		posZ="1052.4650"		rot="0"		/>
+		<interior name="Kickstart Stadium"					interior="14"			posX="-1464.5360"		posY="1557.6900"		posZ="1052.5310"		rot="0"		/>
+		<interior name="Blood Bowl Stadium"					interior="15"			posX="-1394.20"			posY="987.62"			posZ="1023.96"			rot="0"		/>
+		<interior name="Sumo Ring stadium"					interior="16"			posX="-1400.0"			posY="1250.0"			posZ="1040.0"			rot="0"		/>
+	</group>
+
+	<group name="Casino">
+		<interior name="Caligulas Casino"					interior="1"			posX="2235.2524"		posY="1708.5146"		posZ="1010.6129"		rot="0"		/>
+		<interior name="Four Dragons Casino"				interior="10"			posX="2009.4140"		posY="1017.8990"		posZ="994.4680"			rot="0"		/>
+		<interior name="The Four Dragons Office"			interior="11"			posX="2011.6030"		posY="1017.0230"		posZ="39.0910"			rot="0"		/>
+		<interior name="The Casino"							interior="12"			posX="1132.9450"		posY="-8.6750"			posZ="1000.6800"		rot="0"		/>
+	</group>
+
+	<group name="Warehouse/Garages">
+		<interior name="Warehouse 1"						interior="1"			posX="1405.3120"		posY="-8.2928"			posZ="1000.9130"		rot="0"		/>
+		<interior name="Warehouse 2"						interior="18"			posX="1296.6310"		posY="0.5920"			posZ="1001.0230"		rot="0"		/>
+		<interior name="Doherty Garage"						interior="1"			posX="-2042.42"			posY="178.59"			posZ="28.84"			rot="0"		/>
+		<interior name="Angel Pine Trailer"					interior="2"			posX="0.3440"			posY="-0.5140"			posZ="1000.5490"		rot="0"		/>
+		<interior name="CJ's Garage"						interior="13"			posX="-2043.966"		posY="172.932"			posZ="28.835"			rot="0"		/>
+	</group>
+
+	<group name="Missions">
+		<interior name="Liberty City"						interior="1"			posX="-750.80"			posY="491.00"			posZ="1371.70"			rot="0"		/>
+		<interior name="Sweet's House"						interior="1"			posX="2525.0420"		posY="-1679.1150"		posZ="1015.4990"		rot="0"		/>
+		<interior name="Sindacco Abatoir"					interior="1"			posX="963.6078"			posY="2108.3970"		posZ="1011.0300"		rot="0"		/>
+		<interior name="Wu Zi Mu's Betting place"			interior="1"			posX="-2159.9260"		posY="641.4587"			posZ="1052.3820"		rot="0"		/>
+		<interior name="Ryder's House"						interior="2"			posX="2464.2110"		posY="-1697.9520"		posZ="1013.5080"		rot="0"		/>
+		<interior name="BDups Crack Palace"					interior="2"			posX="1523.7510"		posY="-46.0458"			posZ="1002.1310"		rot="0"		/>
+		<interior name="Big Smoke's Crack Palace"			interior="2"			posX="2543.6610"		posY="-1303.9320"		posZ="1025.0700"		rot="0"		/>
+		<interior name="Brothel"							interior="3"			posX="940.6520"			posY="-18.4860"			posZ="1000.9300"		rot="0"		/>
+		<interior name="Brothel 2"							interior="3"			posX="967.5334"			posY="-53.0245"			posZ="1001.1250"		rot="0"		/>
+		<interior name="BDups Apartment"					interior="3"			posX="1527.38"			posY="-11.02"			posZ="1002.10"			rot="0"		/>
+		<interior name="Big Spread Ranch"					interior="3"			posX="1210.2570"		posY="-29.2986"			posZ="1000.8790"		rot="0"		/>
+		<interior name="OG Loc's House"						interior="3"			posX="516.8890"			posY="-18.4120"			posZ="1001.5650"		rot="0"		/>
+		<interior name="Las Venturas Planning Dep."			interior="3"			posX="374.6708"			posY="173.8050"			posZ="1008.3893"		rot="0"		/>
+		<interior name="Record Label Hallway"				interior="3"			posX="1038.2190"		posY="6.9905"			posZ="1001.2840"		rot="0"		/>
+		<interior name="Johnson House"						interior="3"			posX="2496.0500"		posY="-1693.9260"		posZ="1014.7420"		rot="0"		/>
+		<interior name="Inside Track Betting"				interior="3"			posX="826.8863"			posY="5.5091"			posZ="1004.4830"		rot="0"		/>
+		<interior name="Sex Shop"							interior="3"			posX="-106.7268"		posY="-19.6444"			posZ="1000.7190"		rot="0"		/>
+		<interior name="Madd Dogg's Mansion"				interior="5"			posX="1272.9116"		posY="-768.9028"		posZ="1090.5097"		rot="0"		/>
+		<interior name="Burning Desire House"				interior="5"			posX="2351.1540"		posY="-1180.5770"		posZ="1027.9770"		rot="0"		/>
+		<interior name="The Crack Den"						interior="5"			posX="322.1117"			posY="1119.3270"		posZ="1083.8830"		rot="0"		/>
+		<interior name="Vank Hoff Hotel"					interior="5"			posX="2232.8210"		posY="-1110.0180"		posZ="1050.8830"		rot="0"		/>
+		<interior name="Fanny Batter's Brothel"				interior="6"			posX="744.2710"			posY="1437.2530"		posZ="1102.7030"		rot="0"		/>
+		<interior name="Colonel Fuhrberger's House"			interior="8"			posX="2807.8990"		posY="-1172.9210"		posZ="1025.5700"		rot="0"		/>
+ 		<interior name="RC Zero's Battlefield"				interior="10"			posX="-975.5766"		posY="1061.1312"		posZ="1345.6719"		rot="0"		/>
+		<interior name="Janitor Room (Four Dragons)"		interior="10"			posX="1891.3960"		posY="1018.1260"		posZ="31.8820"			rot="0"		/>
+		<interior name="Abandoned AC Tower"					interior="10"			posX="419.6140"			posY="2536.6030"		posZ="10.0000"			rot="0"		/>
+		<interior name="LS Atrium"							interior="13"			posX="1724.33"			posY="-1625.784"		posZ="20.211"			rot="0"		/>
+		<interior name="Wardrobe"							interior="14"			posX="255.7190"			posY="-41.1370"			posZ="1002.0230"		rot="0"		/>
+		<interior name="Jefferson Motel"					interior="15"			posX="2217.6250"		posY="-1150.6580"		posZ="1025.7970"		rot="0"		/>
+		<interior name="The Sherman's Dam Generator Hall"	interior="17"			posX="-942.1320"		posY="1849.1420"		posZ="5.0050"			rot="0"		/>
+		<interior name="Atrium"								interior="18"			posX="1726.1370"		posY="-1645.2300"		posZ="20.2260"			rot="0"		/>
+	</group>
+
+</interiors>

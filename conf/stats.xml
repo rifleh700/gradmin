@@ -1,0 +1,30 @@
+<stats>
+
+	<group name="Weapon">
+		<stat id="69" name="Pistol skill" shortname = "Pistol" />
+		<stat id="70" name="Silenced Pistol skill" shortname = "Silenced Pistol" />
+		<stat id="71" name="Desert Eagle skill" shortname = "Desert Eagle" />
+		<stat id="72" name="Shotgun skill" shortname = "Shotgun" />
+		<stat id="73" name="Sawn Off skill" shortname = "Sawn Off" />
+		<stat id="74" name="Spaz12 skill" shortname = "Spaz12" />
+		<stat id="75" name="Uzi skill" shortname = "Uzi" />
+		<stat id="76" name="MP5 skill" shortname = "MP5" />
+		<stat id="77" name="AK47 skill" shortname = "AK47" />
+		<stat id="78" name="M4 skill" shortname = "M4" />
+		<stat id="79" name="Sniper skill" shortname = "Sniper" />
+	</group>
+
+	<group name="Body">
+		<stat id="21" name="Fat stat" shortname="Fat" />
+		<stat id="22" name="Stamina stat" shortname="Stamina" />
+		<stat id="225" name="Underwater stat" shortname="Underwater" />
+		<stat id="23" name="Muscule stat" shortname="Muscule" />
+		<stat id="24" name="Health stat" shortname="Health" />
+	</group>
+
+	<group name="Driving">
+		<stat id="229" name="Bike skill" shortname="Bike" />
+		<stat id="230" name="Cycle skill" shortname="Cycle" />
+	</group>
+	
+</stats>

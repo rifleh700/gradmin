@@ -1,0 +1,114 @@
+<weathers>
+	<weather id="0"		name="Extra sunny (LS)" />
+	<weather id="1"		name="Sunny (LS)" />
+	<weather id="2"		name="Extra sunny, smog (LS)" />
+	<weather id="3"		name="Sunny, smog (LS)" />
+	<weather id="4"		name="Cloudy (LS)" />
+	<weather id="5"		name="Sunny (SF)" />
+	<weather id="6"		name="Extra sunny (SF)" />
+	<weather id="7"		name="Cloudy (SF)" />
+	<weather id="8"		name="Rainy (SF)" />
+	<weather id="9"		name="Foggy (SF)" />
+	<weather id="10"	name="Sunny (LV)" />
+	<weather id="11"	name="Extra sunny (LV)" />
+	<weather id="12"	name="Cloudy (LV)" />
+	<weather id="13"	name="Extra sunny (country)" />
+	<weather id="14"	name="Sunny (country)" />
+	<weather id="15"	name="Cloudy (country)" />
+	<weather id="16"	name="Rainy (country)" />
+	<weather id="17"	name="Extra sunny (desert)" />
+	<weather id="18"	name="Sunny (desert)" />
+	<weather id="19"	name="Sandstrom (desert)" />
+	<weather id="20"	name="Greenish, foggy" />
+	<weather id="21"	name="Dark, black/purple sky" />
+	<weather id="22"	name="Dark, black/white sky" />
+	<weather id="23"	name="Pale orange" />
+	<weather id="24"	name="Pale orange 2" />
+	<weather id="25"	name="Pale orange 3" />
+	<weather id="26"	name="Pale orange 4" />
+	<weather id="27"	name="Fresh blue" />
+	<weather id="28"	name="Fresh blue 2" />
+	<weather id="29"	name="Fresh blue 3" />
+	<weather id="30"	name="Dark, cloudy, teal" />
+	<weather id="31"	name="Dark, cloudy, teal 2" />
+	<weather id="32"	name="Dark, cloudy, teal 3" />
+	<weather id="33"	name="Dark, cloudy, brown" />
+	<weather id="34"	name="Blue/purple, regular" />
+	<weather id="35"	name="Dull brown" />
+	<weather id="36"	name="Bright, foggy, orange" />
+	<weather id="37"	name="Bright, foggy, orange 2" />
+	<weather id="38"	name="Bright, foggy, orange 3" />
+	<weather id="39"	name="Very bright" />
+	<weather id="40"	name="Blue/purple, cloudy" />
+	<weather id="41"	name="Blue/purple, cloudy 2" />
+	<weather id="42"	name="Blue/purple, cloudy 3" />
+	<weather id="43"	name="Toxic clouds" />
+	<weather id="44"	name="Black/white sky" />
+	<weather id="45"	name="Bugged" />
+	<weather id="46"	name="Bugged 2" />
+	<weather id="47"	name="Bugged 3" />
+	<weather id="48"	name="Bugged 4" />
+	<weather id="49"	name="Bugged 5" />
+	<weather id="50"	name="Bugged 6" />
+	<weather id="51"	name="Bugged, big draw distance" />
+	<weather id="52"	name="Bugged, big draw distance 2" />
+	<weather id="53"	name="Bugged, big draw distance 3" />
+	<weather id="54"	name="Bugged 7" />
+	<weather id="55"	name="Bugged 8" />
+	<weather id="56"	name="Bugged 9" />
+	<weather id="57"	name="Bugged 10" />
+	<weather id="58"	name="Bugged 11" />
+	<weather id="59"	name="Bugged 12" />
+	<weather id="60"	name="Bugged 13" />
+	<weather id="118"	name="Stormy, pink sky, crystal water" />
+	<weather id="126"	name="Flashing, red" />
+	<weather id="127"	name="Flashing, red 2" />
+	<weather id="128"	name="Flashing, red 3" />
+	<weather id="129"	name="Flashing, red 4" />
+	<weather id="130"	name="Flashing, red 5" />
+	<weather id="131"	name="Flashing, red 6" />
+	<weather id="132"	name="Flashing, red 7" />
+	<weather id="133"	name="Flashing, red 8" />
+	<weather id="134"	name="Flashing, red 9" />
+	<weather id="135"	name="Flashing, red 10" />
+	<weather id="136"	name="Flashing, red 11" />
+	<weather id="137"	name="Flashing, red 12" />
+	<weather id="138"	name="Flashing, red 13" />
+	<weather id="139"	name="Flashing, red 14" />
+	<weather id="140"	name="Flashing, red 15" />
+	<weather id="141"	name="Flashing, red 16" />
+	<weather id="142"	name="Flashing, red 17" />
+	<weather id="143"	name="Flashing, red 18" />
+	<weather id="144"	name="Flashing, red 19" />
+	<weather id="145"	name="Flashing, red 20" />
+	<weather id="146"	name="Flashing, red 21" />
+	<weather id="147"	name="Flashing, red 22" />
+	<weather id="148"	name="Flashing, red 23" />
+	<weather id="149"	name="Flashing, red 24" />
+	<weather id="150"	name="Flashing, dark red" />
+	<weather id="151"	name="Far draw distance, pink/purple clouds" />
+	<weather id="152"	name="Far draw distance, pink/purple clouds 2" />
+	<weather id="153"	name="Far draw distance, pink/purple clouds 3" />
+	<weather id="154"	name="Far draw distance, pink/purple clouds 4" />
+	<weather id="155"	name="Far draw distance, pink/purple clouds 5" />
+	<weather id="156"	name="Far draw distance, pink/purple clouds 6" />
+	<weather id="157"	name="Far draw distance, pink/purple clouds 7" />
+	<weather id="158"	name="Far draw distance, pink/purple clouds 8" />
+	<weather id="159"	name="Far draw distance, pink/purple clouds 9" />
+	<weather id="160"	name="Far draw distance, pink/purple clouds 10" />
+	<weather id="161"	name="Far draw distance, pink/purple clouds 11" />
+	<weather id="162"	name="Far draw distance, pink/purple clouds 12" />
+	<weather id="163"	name="Far draw distance, pink/purple clouds 13" />
+	<weather id="164"	name="Far draw distance, pink/purple clouds 14" />
+	<weather id="165"	name="Far draw distance, pink/purple clouds 15" />
+	<weather id="166"	name="Far draw distance, pink/purple clouds 16" />
+	<weather id="167"	name="Far draw distance, pink/purple clouds 17" />
+	<weather id="168"	name="Far draw distance, pink/purple clouds 18" />
+	<weather id="169"	name="Far draw distance, pink/purple clouds 19" />
+	<weather id="170"	name="Far draw distance, pink/purple clouds 20" />
+	<weather id="171"	name="Far draw distance, pink/purple clouds 21" />
+	<weather id="172"	name="Far draw distance, pink/purple clouds 22" />
+	<weather id="173"	name="Far draw distance, pink/purple clouds 23" />
+	<weather id="174"	name="Far draw distance, pink/purple clouds 24" />
+	<weather id="175"	name="Far draw distance, pink/purple clouds 25" />
+</weathers>

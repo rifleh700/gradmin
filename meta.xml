@@ -1,0 +1,599 @@
+<meta>
+
+	<info
+		name="GrAdmin"
+		author="rifleh700"
+		type="misc"
+		version="0.1"
+		description="Powerful administration panel (github.com/rifleh700/gradmin) "
+	/>
+
+	<min_mta_version server="1.5.6-9.16361" client="1.5.6-9.16361" />
+
+	<config src="conf/acl.xml"										type="server" /> <!-- do not touch! -->
+	<config src="conf/acl_global.xml"								type="server" /> <!-- do not touch! -->
+	<config src="conf/skins.xml" 									type="shared" />
+	<config src="conf/stats.xml" 									type="shared" />
+	<config src="conf/upgrades.xml"									type="shared" />
+	<config src="conf/weathers.xml"									type="shared" />
+	<config src="conf/interiors.xml"								type="shared" />
+ 
+	<!-- ******** HELPERS ******** -->
+	<script src="env.lua"											type="shared" />
+
+	<script src="libs/check.lua"									type="shared" />
+	<script src="libs/math.lua"										type="shared" />
+	<script src="libs/string.lua"									type="shared" />
+	<script src="libs/table.lua"									type="shared" />
+	<script src="libs/coroutine.lua"								type="shared" />
+	<script src="libs/enum.lua"										type="shared" />
+	<script src="libs/utils.lua"									type="shared" />
+	
+	<script src="helpers/color.lua"									type="shared" />
+	<script src="helpers/time.lua"									type="shared" />
+	<script src="helpers/hash.lua"									type="shared" />
+	<script src="helpers/file.lua"									type="shared" />
+	<script src="helpers/xml.lua"									type="shared" />
+	<script src="helpers/utils.lua"									type="shared" />
+	<script src="helpers/remote.lua"								type="shared" />
+	<script src="helpers/glitches.lua"								type="shared" />
+	<script src="helpers/wsp.lua"									type="shared" />
+	<script src="helpers/weathers.lua"								type="shared" />
+	<script src="helpers/vehicle.lua"								type="shared" />
+	<script src="helpers/weapon.lua"								type="shared" />
+	<script src="helpers/skins.lua"									type="shared" />
+	<script src="helpers/stats.lua"									type="shared" />
+	<script src="helpers/upgrades.lua"								type="shared" />
+	<script src="helpers/walkingstyles.lua"							type="shared" />
+	<script src="helpers/fightingstyles.lua"						type="shared" />
+	<script src="helpers/gameplay.lua"								type="shared" />
+	<script src="helpers/intlocs.lua"								type="shared" />
+
+	<script src="helpers/server/db.lua"								type="server" />
+	<script src="helpers/server/remote.lua"							type="server" />
+	<script src="helpers/server/acl.lua"							type="server" />
+	<script src="helpers/server/gameplay.lua"						type="server" />
+	<script src="helpers/server/resource.lua"						type="server" />
+
+	<script src="helpers/client/dx.lua"								type="client" />
+
+	<!-- ******** CORE.SHARED ******** -->
+	<script src="core/definitions.lua"								type="shared" />
+	<script src="core/colors.lua"									type="shared" />
+	<script src="core/guard.lua"									type="shared" />
+	<script src="core/coroutines.lua"								type="shared" />
+	
+	<!-- ******** CORE.SERVER ******** -->
+	<script src="core/server/events.lua"							type="server" />
+	<script src="core/server/time.lua"								type="server" />
+	<script src="core/server/db.lua"								type="server" />
+	<script src="core/server/messages.lua"							type="server" />
+	<script src="core/server/penaltylogs.lua"						type="server" />
+	<script src="core/server/personalsettings.lua"					type="server" />
+	<script src="core/server/commands.lua"							type="server" />
+	<script src="core/server/acl.lua"								type="server" />
+	<script src="core/server/modules.lua"							type="server" />
+	<script src="core/server/sessions.lua"							type="server" />
+	<script src="core/server/settings.lua"							type="server" />
+	<script src="core/server/sync.lua"								type="server" />
+	<script src="core/server/main.lua"								type="server" />
+
+	<!-- ******** CORE.GUI ******** -->
+	<script src="gui/definitions.lua"								type="client" />
+	
+	<script src="gui/lib/properties.lua"							type="client" />
+	<script src="gui/lib/general.lua"								type="client" />
+	<script src="gui/lib/events.lua"								type="client" />
+	<script src="gui/lib/internaldata.lua"							type="client" />
+	<script src="gui/lib/data.lua"									type="client" />
+	<script src="gui/lib/customproperty.lua"						type="client" />
+	<script src="gui/lib/focus.lua"									type="client" />
+	<script src="gui/lib/input.lua"									type="client" />
+	<script src="gui/lib/input_parser.lua"							type="client" />
+	<script src="gui/lib/input_matcher.lua"							type="client" />
+	<script src="gui/lib/bind.lua"									type="client" />
+	<script src="gui/lib/status.lua"								type="client" />
+	<script src="gui/lib/temptext.lua"								type="client" />
+	<script src="gui/lib/font.lua"									type="client" />
+	<script src="gui/lib/image.lua"									type="client" />
+	<script src="gui/lib/label.lua"									type="client" />
+	<script src="gui/lib/checkbox.lua"								type="client" />
+	<script src="gui/lib/edit.lua"									type="client" />
+	<script src="gui/lib/edit_icon.lua"								type="client" />
+	<script src="gui/lib/edit_matcher.lua"							type="client" />
+	<script src="gui/lib/edit_parser.lua"							type="client" />
+	<script src="gui/lib/edit_combobox.lua"							type="client" />
+	<script src="gui/lib/memo.lua"									type="client" />
+	<script src="gui/lib/memo_parser.lua"							type="client" />
+	<script src="gui/lib/button.lua"								type="client" />
+	<script src="gui/lib/button_icon.lua"							type="client" />
+	<script src="gui/lib/button_combobox.lua"						type="client" />
+	<script src="gui/lib/gridlist.lua"								type="client" />
+	<script src="gui/lib/gridlist_focus.lua"						type="client" />
+	<script src="gui/lib/gridlist_keys.lua"							type="client" />
+	<script src="gui/lib/gridlist_scroll.lua"						type="client" />
+	<script src="gui/lib/gridlist_search.lua"						type="client" />
+	<script src="gui/lib/gridlist_players.lua"						type="client" />
+	<script src="gui/lib/scrollpane.lua"							type="client" />
+	<script src="gui/lib/combobox.lua"								type="client" />
+	
+	<script src="gui/lib/elements/container.lua"					type="client" />
+	<script src="gui/lib/elements/horizontallayout.lua"				type="client" />
+	<script src="gui/lib/elements/verticallayout.lua"				type="client" />
+	<script src="gui/lib/elements/gridlayout.lua"					type="client" />
+	<script src="gui/lib/elements/layout.lua"						type="client" />
+	<script src="gui/lib/elements/separator.lua"					type="client" />
+	
+	<script src="gui/lib/widgets/imageviewer.lua"					type="client" />
+	<script src="gui/lib/widgets/tooltip.lua"						type="client" />
+	<script src="gui/lib/widgets/context.lua"						type="client" />
+	<script src="gui/lib/widgets/colorpicker.lua"					type="client" />
+	<script src="gui/lib/widgets/imagelist.lua"						type="client" />
+	<script src="gui/lib/widgets/messagedialog.lua"					type="client" />
+	<script src="gui/lib/widgets/inputdialog.lua"					type="client" />
+	<script src="gui/lib/widgets/imagedialog.lua"					type="client" />
+
+	<script src="gui/default.lua"									type="client" />
+	<script src="gui/style.lua"										type="client" />
+	<script src="gui/helpers.lua"									type="client" />
+
+	<!-- ******** CORE.CLIENT ******** -->
+	<script src="core/client/time.lua"								type="client" />
+	<script src="core/client/messages.lua"							type="client" />
+	<script src="core/client/globalsettings.lua"					type="client" />
+	<script src="core/client/session.lua"							type="client" />
+	<script src="core/client/settings.lua"							type="client" />
+	<script src="core/client/guiguard.lua"							type="client" />
+	<script src="core/client/gui.lua"								type="client" />
+	<script src="core/client/sync.lua"								type="client" />
+	<script src="core/client/commands.lua"							type="client" />
+	<script src="core/client/modules.lua"							type="client" />
+	<script src="core/client/main.lua"								type="client" />
+
+	<!-- ******** MODULES ******** -->
+	<script src="modules/fps/fps_server.lua"						type="server" />
+	<script src="modules/fps/fps_client.lua"						type="client" />
+
+	<script src="modules/register/register_server.lua"				type="server" />
+
+	<script src="modules/screenshot/screenshot_client.lua"			type="client" />
+
+	<script src="modules/ip2c/ip2c_server.lua"						type="server" />
+	<script src="modules/ip2c/ip2c_client.lua"						type="client" />
+
+	<script src="modules/mute/mute_server.lua"						type="server" />
+
+	<script src="modules/screenshotsaver/screenshotsaver_client.lua" type="client" />
+
+	<script src="modules/report/report_server.lua"					type="server" />
+	<script src="modules/report/report_client.lua"					type="client" />
+	<script src="modules/report/report_gui.lua"						type="client" />
+
+	<script src="modules/players/warp_client.lua"					type="client" />
+	<script src="modules/players/players_server.lua"				type="server" />
+	<script src="modules/players/players_commands.lua"				type="server" />
+	<script src="modules/players/mapdialog_widget.lua"				type="client" />
+	<script src="modules/players/players_client.lua"				type="client" />
+	<script src="modules/players/players_gui.lua"					type="client" />
+	<script src="modules/players/players_gui_ban.lua"				type="client" />
+	<script src="modules/players/players_gui_mute.lua"				type="client" />
+	<script src="modules/players/players_gui_stats.lua"				type="client" />
+	<script src="modules/players/players_gui_upgrades.lua"			type="client" />
+	<script src="modules/players/players_spectator_client.lua"		type="client" />
+
+	<script src="modules/reports/reports_server.lua"				type="server" />
+	<script src="modules/reports/reports_commands.lua"				type="server" />
+	<script src="modules/reports/reports_client.lua"				type="client" />
+	<script src="modules/reports/reports_gui.lua"					type="client" />
+
+	<script src="modules/teams/teams_commands.lua"					type="server" />
+
+	<script src="modules/admchat/admchat_server.lua"				type="server" />
+	<script src="modules/admchat/admchat_commands.lua"				type="server" />
+	<script src="modules/admchat/admchat_client.lua"				type="client" />
+	<script src="modules/admchat/admchat_gui.lua"					type="client" />
+
+	<script src="modules/bans/bans_server.lua"						type="server" />
+	<script src="modules/bans/bans_commands.lua"					type="server" />
+	<script src="modules/bans/bans_client.lua"						type="client" />
+	<script src="modules/bans/bans_gui.lua"							type="client" />
+	<script src="modules/bans/bans_gui_add.lua"						type="client" />
+
+	<script src="modules/mutes/mutes_server.lua"					type="server" />
+	<script src="modules/mutes/mutes_commands.lua"					type="server" />
+	<script src="modules/mutes/mutes_client.lua"					type="client" />
+	<script src="modules/mutes/mutes_gui.lua"						type="client" />
+	<script src="modules/mutes/mutes_gui_add.lua"					type="client" />	
+
+	<script src="modules/penaltylogs/penaltylogs_server.lua"		type="server" />
+	<script src="modules/penaltylogs/penaltylogs_client.lua"		type="client" />
+	<script src="modules/penaltylogs/penaltylogs_gui.lua"			type="client" />
+
+	<script src="modules/connectionlogs/connectionlogs_server.lua"	type="server" />
+	<script src="modules/connectionlogs/connectionlogs_client.lua"	type="client" />
+	<script src="modules/connectionlogs/connectionlogs_gui.lua"		type="client" />
+
+	<script src="modules/stafflogs/stafflogs_server.lua"			type="server" />
+	<script src="modules/stafflogs/stafflogs_client.lua"			type="client" />
+	<script src="modules/stafflogs/stafflogs_gui.lua"				type="client" />
+
+	<script src="modules/resources/resources_server.lua"			type="server" />
+	<script src="modules/resources/resources_commands.lua"			type="server" />
+	<script src="modules/resources/resources_client.lua"			type="client" />
+	<script src="modules/resources/resources_gui.lua"				type="client" />
+
+	<script src="modules/execute/execute_commands.lua"				type="server" />
+	<script src="modules/execute/execute_client.lua"				type="client" />
+	<script src="modules/execute/execute_gui.lua"					type="client" />
+
+	<script src="modules/acl/acl_server.lua"						type="server" />
+	<script src="modules/acl/acl_commands.lua"						type="server" />
+	<script src="modules/acl/acl_client.lua"						type="client" />
+	<script src="modules/acl/acl_gui.lua"							type="client" />
+	<script src="modules/acl/acl_gui_expert.lua"					type="client" />
+	<script src="modules/acl/acl_gui_simple.lua"					type="client" />
+
+	<script src="modules/environment/blur/blur_server.lua"			type="server" />
+	<script src="modules/environment/environment_server.lua"		type="server" />
+	<script src="modules/environment/environment_commands.lua"		type="server" />
+	<script src="modules/environment/environment_client.lua"		type="client" />
+	<script src="modules/environment/environment_gui.lua"			type="client" />
+
+	<script src="modules/server/server_server.lua"					type="server" />
+	<script src="modules/server/server_commands.lua"				type="server" />
+	<script src="modules/server/server_client.lua"					type="client" />
+	<script src="modules/server/server_gui.lua"						type="client" />
+
+	<script src="modules/about/about_client.lua"					type="client" />
+	<script src="modules/about/about_gui.lua"						type="client" />
+	
+	<!-- ******** FILES ******** -->
+	<file src="gui/fonts/DejaVuSansMono-Bold.ttf" />
+
+	<file src="gui/images/dialog/warning.png" />
+	<file src="gui/images/dialog/error.png" />
+	<file src="gui/images/dialog/question.png" />
+	<file src="gui/images/dialog/info.png" />
+
+	<file src="gui/images/elements/search.png" />
+	<file src="gui/images/elements/dropdown.png" />
+	<file src="gui/images/elements/plus.png" />
+	<file src="gui/images/elements/minus.png" />
+	<file src="gui/images/elements/info.png" />
+
+	<file src="gui/images/util/white.png" />
+	<file src="gui/images/util/empty.png" />
+	
+	<file src="gui/images/colorpicker/hue.png" />
+	<file src="gui/images/colorpicker/hsvcursor.png" />
+
+	<file src="modules/players/images/map.png" />
+	<file src="modules/players/images/me.png" />
+	<file src="modules/players/images/point.png" />
+
+	<file src="modules/ip2c/flags/AD.png" />
+	<file src="modules/ip2c/flags/AE.png" />
+	<file src="modules/ip2c/flags/AF.png" />
+	<file src="modules/ip2c/flags/AG.png" />
+	<file src="modules/ip2c/flags/AI.png" />
+	<file src="modules/ip2c/flags/AL.png" />
+	<file src="modules/ip2c/flags/AM.png" />
+	<file src="modules/ip2c/flags/AN.png" />
+	<file src="modules/ip2c/flags/AO.png" />
+	<file src="modules/ip2c/flags/AQ.png" />
+	<file src="modules/ip2c/flags/AR.png" />
+	<file src="modules/ip2c/flags/AS.png" />
+	<file src="modules/ip2c/flags/AT.png" />
+	<file src="modules/ip2c/flags/AU.png" />
+	<file src="modules/ip2c/flags/AW.png" />
+	<file src="modules/ip2c/flags/AX.png" />
+	<file src="modules/ip2c/flags/AZ.png" />
+	<file src="modules/ip2c/flags/BA.png" />
+	<file src="modules/ip2c/flags/BB.png" />
+	<file src="modules/ip2c/flags/BD.png" />
+	<file src="modules/ip2c/flags/BE.png" />
+	<file src="modules/ip2c/flags/BF.png" />
+	<file src="modules/ip2c/flags/BG.png" />
+	<file src="modules/ip2c/flags/BH.png" />
+	<file src="modules/ip2c/flags/BI.png" />
+	<file src="modules/ip2c/flags/BJ.png" />
+	<file src="modules/ip2c/flags/BL.png" />
+	<file src="modules/ip2c/flags/BM.png" />
+	<file src="modules/ip2c/flags/BN.png" />
+	<file src="modules/ip2c/flags/BO.png" />
+	<file src="modules/ip2c/flags/BR.png" />
+	<file src="modules/ip2c/flags/BS.png" />
+	<file src="modules/ip2c/flags/BT.png" />
+	<file src="modules/ip2c/flags/BW.png" />
+	<file src="modules/ip2c/flags/BY.png" />
+	<file src="modules/ip2c/flags/BZ.png" />
+	<file src="modules/ip2c/flags/CA.png" />
+	<file src="modules/ip2c/flags/CC.png" />
+	<file src="modules/ip2c/flags/CD.png" />
+	<file src="modules/ip2c/flags/CF.png" />
+	<file src="modules/ip2c/flags/CG.png" />
+	<file src="modules/ip2c/flags/CH.png" />
+	<file src="modules/ip2c/flags/CI.png" />
+	<file src="modules/ip2c/flags/CK.png" />
+	<file src="modules/ip2c/flags/CL.png" />
+	<file src="modules/ip2c/flags/CM.png" />
+	<file src="modules/ip2c/flags/CN.png" />
+	<file src="modules/ip2c/flags/CO.png" />
+	<file src="modules/ip2c/flags/CR.png" />
+	<file src="modules/ip2c/flags/CU.png" />
+	<file src="modules/ip2c/flags/CV.png" />
+	<file src="modules/ip2c/flags/CW.png" />
+	<file src="modules/ip2c/flags/CX.png" />
+	<file src="modules/ip2c/flags/CY.png" />
+	<file src="modules/ip2c/flags/CZ.png" />
+	<file src="modules/ip2c/flags/DE.png" />
+	<file src="modules/ip2c/flags/DJ.png" />
+	<file src="modules/ip2c/flags/DK.png" />
+	<file src="modules/ip2c/flags/DM.png" />
+	<file src="modules/ip2c/flags/DO.png" />
+	<file src="modules/ip2c/flags/DZ.png" />
+	<file src="modules/ip2c/flags/EC.png" />
+	<file src="modules/ip2c/flags/EE.png" />
+	<file src="modules/ip2c/flags/EG.png" />
+	<file src="modules/ip2c/flags/EH.png" />
+	<file src="modules/ip2c/flags/ER.png" />
+	<file src="modules/ip2c/flags/ES.png" />
+	<file src="modules/ip2c/flags/ET.png" />
+	<file src="modules/ip2c/flags/EU.png" />
+	<file src="modules/ip2c/flags/FI.png" />
+	<file src="modules/ip2c/flags/FJ.png" />
+	<file src="modules/ip2c/flags/FK.png" />
+	<file src="modules/ip2c/flags/FM.png" />
+	<file src="modules/ip2c/flags/FO.png" />
+	<file src="modules/ip2c/flags/FR.png" />
+	<file src="modules/ip2c/flags/GA.png" />
+	<file src="modules/ip2c/flags/GB.png" />
+	<file src="modules/ip2c/flags/GD.png" />
+	<file src="modules/ip2c/flags/GE.png" />
+	<file src="modules/ip2c/flags/GG.png" />
+	<file src="modules/ip2c/flags/GH.png" />
+	<file src="modules/ip2c/flags/GI.png" />
+	<file src="modules/ip2c/flags/GL.png" />
+	<file src="modules/ip2c/flags/GM.png" />
+	<file src="modules/ip2c/flags/GN.png" />
+	<file src="modules/ip2c/flags/GQ.png" />
+	<file src="modules/ip2c/flags/GR.png" />
+	<file src="modules/ip2c/flags/GS.png" />
+	<file src="modules/ip2c/flags/GT.png" />
+	<file src="modules/ip2c/flags/GU.png" />
+	<file src="modules/ip2c/flags/GW.png" />
+	<file src="modules/ip2c/flags/GY.png" />
+	<file src="modules/ip2c/flags/HK.png" />
+	<file src="modules/ip2c/flags/HN.png" />
+	<file src="modules/ip2c/flags/HR.png" />
+	<file src="modules/ip2c/flags/HT.png" />
+	<file src="modules/ip2c/flags/HU.png" />
+	<file src="modules/ip2c/flags/IC.png" />
+	<file src="modules/ip2c/flags/ID.png" />
+	<file src="modules/ip2c/flags/IE.png" />
+	<file src="modules/ip2c/flags/IL.png" />
+	<file src="modules/ip2c/flags/IM.png" />
+	<file src="modules/ip2c/flags/IN.png" />
+	<file src="modules/ip2c/flags/IQ.png" />
+	<file src="modules/ip2c/flags/IR.png" />
+	<file src="modules/ip2c/flags/IS.png" />
+	<file src="modules/ip2c/flags/IT.png" />
+	<file src="modules/ip2c/flags/JE.png" />
+	<file src="modules/ip2c/flags/JM.png" />
+	<file src="modules/ip2c/flags/JO.png" />
+	<file src="modules/ip2c/flags/JP.png" />
+	<file src="modules/ip2c/flags/KE.png" />
+	<file src="modules/ip2c/flags/KG.png" />
+	<file src="modules/ip2c/flags/KH.png" />
+	<file src="modules/ip2c/flags/KI.png" />
+	<file src="modules/ip2c/flags/KM.png" />
+	<file src="modules/ip2c/flags/KN.png" />
+	<file src="modules/ip2c/flags/KP.png" />
+	<file src="modules/ip2c/flags/KR.png" />
+	<file src="modules/ip2c/flags/KW.png" />
+	<file src="modules/ip2c/flags/KY.png" />
+	<file src="modules/ip2c/flags/KZ.png" />
+	<file src="modules/ip2c/flags/LA.png" />
+	<file src="modules/ip2c/flags/LB.png" />
+	<file src="modules/ip2c/flags/LC.png" />
+	<file src="modules/ip2c/flags/LI.png" />
+	<file src="modules/ip2c/flags/LK.png" />
+	<file src="modules/ip2c/flags/LR.png" />
+	<file src="modules/ip2c/flags/LS.png" />
+	<file src="modules/ip2c/flags/LT.png" />
+	<file src="modules/ip2c/flags/LU.png" />
+	<file src="modules/ip2c/flags/LV.png" />
+	<file src="modules/ip2c/flags/LY.png" />
+	<file src="modules/ip2c/flags/MA.png" />
+	<file src="modules/ip2c/flags/MC.png" />
+	<file src="modules/ip2c/flags/MD.png" />
+	<file src="modules/ip2c/flags/ME.png" />
+	<file src="modules/ip2c/flags/MF.png" />
+	<file src="modules/ip2c/flags/MG.png" />
+	<file src="modules/ip2c/flags/MH.png" />
+	<file src="modules/ip2c/flags/MK.png" />
+	<file src="modules/ip2c/flags/ML.png" />
+	<file src="modules/ip2c/flags/MM.png" />
+	<file src="modules/ip2c/flags/MN.png" />
+	<file src="modules/ip2c/flags/MO.png" />
+	<file src="modules/ip2c/flags/MP.png" />
+	<file src="modules/ip2c/flags/MQ.png" />
+	<file src="modules/ip2c/flags/MR.png" />
+	<file src="modules/ip2c/flags/MS.png" />
+	<file src="modules/ip2c/flags/MT.png" />
+	<file src="modules/ip2c/flags/MU.png" />
+	<file src="modules/ip2c/flags/MV.png" />
+	<file src="modules/ip2c/flags/MW.png" />
+	<file src="modules/ip2c/flags/MX.png" />
+	<file src="modules/ip2c/flags/MY.png" />
+	<file src="modules/ip2c/flags/MZ.png" />
+	<file src="modules/ip2c/flags/NA.png" />
+	<file src="modules/ip2c/flags/NC.png" />
+	<file src="modules/ip2c/flags/NE.png" />
+	<file src="modules/ip2c/flags/NF.png" />
+	<file src="modules/ip2c/flags/NG.png" />
+	<file src="modules/ip2c/flags/NI.png" />
+	<file src="modules/ip2c/flags/NL.png" />
+	<file src="modules/ip2c/flags/NO.png" />
+	<file src="modules/ip2c/flags/NP.png" />
+	<file src="modules/ip2c/flags/NR.png" />
+	<file src="modules/ip2c/flags/NU.png" />
+	<file src="modules/ip2c/flags/NZ.png" />
+	<file src="modules/ip2c/flags/OM.png" />
+	<file src="modules/ip2c/flags/PA.png" />
+	<file src="modules/ip2c/flags/PE.png" />
+	<file src="modules/ip2c/flags/PF.png" />
+	<file src="modules/ip2c/flags/PG.png" />
+	<file src="modules/ip2c/flags/PH.png" />
+	<file src="modules/ip2c/flags/PK.png" />
+	<file src="modules/ip2c/flags/PL.png" />
+	<file src="modules/ip2c/flags/PN.png" />
+	<file src="modules/ip2c/flags/PR.png" />
+	<file src="modules/ip2c/flags/PS.png" />
+	<file src="modules/ip2c/flags/PT.png" />
+	<file src="modules/ip2c/flags/PW.png" />
+	<file src="modules/ip2c/flags/PY.png" />
+	<file src="modules/ip2c/flags/QA.png" />
+	<file src="modules/ip2c/flags/RO.png" />
+	<file src="modules/ip2c/flags/RS.png" />
+	<file src="modules/ip2c/flags/RU.png" />
+	<file src="modules/ip2c/flags/RW.png" />
+	<file src="modules/ip2c/flags/SA.png" />
+	<file src="modules/ip2c/flags/SB.png" />
+	<file src="modules/ip2c/flags/SC.png" />
+	<file src="modules/ip2c/flags/SD.png" />
+	<file src="modules/ip2c/flags/SE.png" />
+	<file src="modules/ip2c/flags/SG.png" />
+	<file src="modules/ip2c/flags/SH.png" />
+	<file src="modules/ip2c/flags/SI.png" />
+	<file src="modules/ip2c/flags/SK.png" />
+	<file src="modules/ip2c/flags/SL.png" />
+	<file src="modules/ip2c/flags/SM.png" />
+	<file src="modules/ip2c/flags/SN.png" />
+	<file src="modules/ip2c/flags/SO.png" />
+	<file src="modules/ip2c/flags/SR.png" />
+	<file src="modules/ip2c/flags/SS.png" />
+	<file src="modules/ip2c/flags/ST.png" />
+	<file src="modules/ip2c/flags/SV.png" />
+	<file src="modules/ip2c/flags/SY.png" />
+	<file src="modules/ip2c/flags/SZ.png" />
+	<file src="modules/ip2c/flags/TC.png" />
+	<file src="modules/ip2c/flags/TD.png" />
+	<file src="modules/ip2c/flags/TF.png" />
+	<file src="modules/ip2c/flags/TG.png" />
+	<file src="modules/ip2c/flags/TH.png" />
+	<file src="modules/ip2c/flags/TJ.png" />
+	<file src="modules/ip2c/flags/TK.png" />
+	<file src="modules/ip2c/flags/TL.png" />
+	<file src="modules/ip2c/flags/TM.png" />
+	<file src="modules/ip2c/flags/TN.png" />
+	<file src="modules/ip2c/flags/TO.png" />
+	<file src="modules/ip2c/flags/TR.png" />
+	<file src="modules/ip2c/flags/TT.png" />
+	<file src="modules/ip2c/flags/TV.png" />
+	<file src="modules/ip2c/flags/TW.png" />
+	<file src="modules/ip2c/flags/TZ.png" />
+	<file src="modules/ip2c/flags/UA.png" />
+	<file src="modules/ip2c/flags/UG.png" />
+	<file src="modules/ip2c/flags/US.png" />
+	<file src="modules/ip2c/flags/UY.png" />
+	<file src="modules/ip2c/flags/UZ.png" />
+	<file src="modules/ip2c/flags/VA.png" />
+	<file src="modules/ip2c/flags/VC.png" />
+	<file src="modules/ip2c/flags/VE.png" />
+	<file src="modules/ip2c/flags/VG.png" />
+	<file src="modules/ip2c/flags/VI.png" />
+	<file src="modules/ip2c/flags/VN.png" />
+	<file src="modules/ip2c/flags/VU.png" />
+	<file src="modules/ip2c/flags/WF.png" />
+	<file src="modules/ip2c/flags/WS.png" />
+	<file src="modules/ip2c/flags/YE.png" />
+	<file src="modules/ip2c/flags/YT.png" />
+	<file src="modules/ip2c/flags/ZA.png" />
+	<file src="modules/ip2c/flags/ZM.png" />
+	<file src="modules/ip2c/flags/ZW.png" />
+	<file src="modules/ip2c/flags/ZZ.png" />
+	<file src="modules/ip2c/flags/_abkhazia.png" />
+	<file src="modules/ip2c/flags/_basque-country.png" />
+	<file src="modules/ip2c/flags/_british-antarctic-territory.png" />
+	<file src="modules/ip2c/flags/_england.png" />
+	<file src="modules/ip2c/flags/_gosquared.png" />
+	<file src="modules/ip2c/flags/_kosovo.png" />
+	<file src="modules/ip2c/flags/_nagorno-karabakh.png" />
+	<file src="modules/ip2c/flags/_northern-cyprus.png" />
+	<file src="modules/ip2c/flags/_scotland.png" />
+	<file src="modules/ip2c/flags/_somaliland.png" />
+	<file src="modules/ip2c/flags/_south-ossetia.png" />
+	<file src="modules/ip2c/flags/_unknown.png" />
+	<file src="modules/ip2c/flags/_wales.png" />
+
+	<!-- ******** SETTINGS ******** -->
+	<settings>
+		<setting
+			name="#reportscreenshots"
+			value="[5]"
+			group="Module.Reports"
+			friendlyname="Report screenshots amount"
+			accept="0-20"
+			desc="Maximum number of screenshots which can be attahed to report (0 - disable)"
+		/>
+	</settings>
+
+	<!-- ******** RIGHTS REQUEST ******** -->
+	<aclrequest>
+		<right name="function.executeCommandHandler" access="true" />
+    	<right name="function.setPlayerMuted" access="true" />
+    	<right name="function.addAccount" access="true" />
+    	<right name="function.addBan" access="true" />
+    	<right name="function.setUnbanTime" access="true" />
+    	<right name="function.setBanAdmin" access="true" />
+    	<right name="function.setBanReason" access="true" />
+    	<right name="function.setBanNick" access="true" />
+    	<right name="function.removeBan" access="true" />
+    	<right name="function.removeAccount" access="true" />
+    	<right name="function.setAccountName" access="true" />
+    	<right name="function.setAccountPassword" access="true" />
+    	<right name="function.kickPlayer" access="true" />
+    	<right name="function.banPlayer" access="true" />
+    	<right name="function.getBans" access="true" />
+    	<right name="function.reloadBans" access="true" />
+    	<right name="function.setServerPassword" access="true" />
+    	<right name="function.getServerPassword" access="true" />
+    	<right name="function.callRemote" access="true" />
+    	<right name="function.fetchRemote" access="true" />
+    	<right name="function.startResource" access="true" />
+    	<right name="function.stopResource" access="true" />
+    	<right name="function.restartResource" access="true" />
+    	<right name="function.createResource" access="true" />
+    	<right name="function.copyResource" access="true" />
+    	<right name="function.addResourceMap" access="true" />
+    	<right name="function.addResourceConfig" access="true" />
+    	<right name="function.removeResourceFile" access="true" />
+    	<right name="function.setResourceDefaultSetting" access="true" />
+    	<right name="function.removeResourceDefaultSetting" access="true" />
+    	<right name="function.redirectPlayer" access="true" />
+    	<right name="function.aclReload" access="true" />
+    	<right name="function.aclSave" access="true" />
+    	<right name="function.aclCreate" access="true" />
+    	<right name="function.aclDestroy" access="true" />
+    	<right name="function.aclSetRight" access="true" />
+    	<right name="function.aclRemoveRight" access="true" />
+    	<right name="function.aclCreateGroup" access="true" />
+    	<right name="function.aclDestroyGroup" access="true" />
+    	<right name="function.aclGroupAddACL" access="true" />
+    	<right name="function.aclGroupRemoveACL" access="true" />
+    	<right name="function.aclGroupAddObject" access="true" />
+    	<right name="function.aclGroupRemoveObject" access="true" />
+    	<right name="function.refreshResources" access="true" />
+    	<right name="function.setServerConfigSetting" access="true" />
+    	<right name="function.updateResourceACLRequest" access="true" />
+    	<right name="function.shutdown" access="true" />
+    	<right name="function.setPlayerScriptDebugLevel" access="true" />
+	</aclrequest>
+
+	<!-- ******** EXPORTED FUNCTIONS ******** -->
+	<export function="getPlayerFPS" 								type="shared" />
+	
+	<export function="getPlayerCountry" 							type="server" />
+
+</meta>

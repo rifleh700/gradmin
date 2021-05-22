@@ -1,0 +1,195 @@
+<upgrades>
+	<upgrade id="1000" name="Pro" />
+	<upgrade id="1001" name="Win" />
+	<upgrade id="1002" name="Drag" />
+	<upgrade id="1003" name="Alpha" />
+	<upgrade id="1004" name="Champ scoop" />
+	<upgrade id="1005" name="Fury scoop" />
+	<upgrade id="1006" name="Roof scoop" />
+	<upgrade id="1007" name="Side skirt Left" />
+	<upgrade id="1008" name="Nitro 5x" />
+	<upgrade id="1009" name="Nitro 2x" />
+	<upgrade id="1010" name="Nitro 10x" />
+	<upgrade id="1011" name="Race scoop" />
+	<upgrade id="1012" name="Worx scoop" />
+	<upgrade id="1013" name="Round fog lamps" />
+	<upgrade id="1014" name="Champ" />
+	<upgrade id="1015" name="Race" />
+	<upgrade id="1016" name="Worx" />
+	<upgrade id="1017" name="Side skirt Right" />
+	<upgrade id="1018" name="Upswept" />
+	<upgrade id="1019" name="Twin" />
+	<upgrade id="1020" name="Large" />
+	<upgrade id="1021" name="Medium" />
+	<upgrade id="1022" name="Small" />
+	<upgrade id="1023" name="Fury" />
+	<upgrade id="1024" name="Square fog lamps" />
+	<upgrade id="1025" name="Offroad" />
+	<upgrade id="1026" name="Alien" />
+	<upgrade id="1027" name="Alien 2" />
+	<upgrade id="1028" name="Alien" />
+	<upgrade id="1029" name="X-flow" />
+	<upgrade id="1030" name="X-flow" />
+	<upgrade id="1031" name="X-flow 2" />
+	<upgrade id="1032" name="Alien" />
+	<upgrade id="1033" name="X-flow" />
+	<upgrade id="1034" name="Alien 2" />
+	<upgrade id="1035" name="Alien 2" />
+	<upgrade id="1036" name="Alien 3" />
+	<upgrade id="1037" name="X-flow 2" />
+	<upgrade id="1038" name="X-flow 2" />
+	<upgrade id="1039" name="X-flow 3" />
+	<upgrade id="1040" name="Alien 4" />
+	<upgrade id="1041" name="X-flow 4" />
+	<upgrade id="1042" name="Chrome strip" />
+	<upgrade id="1043" name="Slamin" />
+	<upgrade id="1044" name="Chromer" />
+	<upgrade id="1045" name="Alien 3" />
+	<upgrade id="1046" name="Alien 4" />
+	<upgrade id="1047" name="Alien 5" />
+	<upgrade id="1048" name="X-flow 5" />
+	<upgrade id="1049" name="X-flow" />
+	<upgrade id="1050" name="X-flow 2" />
+	<upgrade id="1051" name="Alien 6" />
+	<upgrade id="1052" name="X-flow 6" />
+	<upgrade id="1053" name="Alien 3" />
+	<upgrade id="1054" name="X-flow 3" />
+	<upgrade id="1055" name="Alien 4" />
+	<upgrade id="1056" name="Alien 7" />
+	<upgrade id="1057" name="Alien 8" />
+	<upgrade id="1058" name="X-flow 3" />
+	<upgrade id="1059" name="X-flow 3" />
+	<upgrade id="1060" name="X-flow 4" />
+	<upgrade id="1061" name="Alien 5" />
+	<upgrade id="1062" name="X-flow 7" />
+	<upgrade id="1063" name="Alien 9" />
+	<upgrade id="1064" name="X-flow 4" />
+	<upgrade id="1065" name="Alien 5" />
+	<upgrade id="1066" name="Alien 6" />
+	<upgrade id="1067" name="Alien 6" />
+	<upgrade id="1068" name="X-flow 4" />
+	<upgrade id="1069" name="X-flow 8" />
+	<upgrade id="1070" name="X-flow 9" />
+	<upgrade id="1071" name="Alien 10" />
+	<upgrade id="1072" name="X-flow 10" />
+	<upgrade id="1073" name="Shadow" />
+	<upgrade id="1074" name="Mega" />
+	<upgrade id="1075" name="Rimshine" />
+	<upgrade id="1076" name="Wires" />
+	<upgrade id="1077" name="Classic" />
+	<upgrade id="1078" name="Twist" />
+	<upgrade id="1079" name="Cutter" />
+	<upgrade id="1080" name="Switch" />
+	<upgrade id="1081" name="Grove" />
+	<upgrade id="1082" name="Import" />
+	<upgrade id="1083" name="Dollar" />
+	<upgrade id="1084" name="Trance" />
+	<upgrade id="1085" name="Atomic" />
+	<upgrade id="1086" name="Stereo bass boost" />
+	<upgrade id="1087" name="Hydralics" />
+	<upgrade id="1088" name="Alien 7" />
+	<upgrade id="1089" name="Alien 7" />
+	<upgrade id="1090" name="Alien 11" />
+	<upgrade id="1091" name="X-flow 5" />
+	<upgrade id="1092" name="X-flow 5" />
+	<upgrade id="1093" name="X-flow 11" />
+	<upgrade id="1094" name="Alien 12" />
+	<upgrade id="1095" name="X-flow 12" />
+	<upgrade id="1096" name="Ahab" />
+	<upgrade id="1097" name="Virtual" />
+	<upgrade id="1098" name="Access" />
+	<upgrade id="1100" name="Chrome grill" />
+	<upgrade id="1101" name="Chrome flames" />
+	<upgrade id="1102" name="Chrome strip 2" />
+	<upgrade id="1103" name="Convertible roof" />
+	<upgrade id="1104" name="Chromer 2" />
+	<upgrade id="1105" name="Slamin 2" />
+	<upgrade id="1106" name="Chrome arches" />
+	<upgrade id="1107" name="Chrome strip 3" />
+	<upgrade id="1108" name="Chrome strip 4" />
+	<upgrade id="1109" name="Chromer" />
+	<upgrade id="1110" name="Slamin" />
+	<upgrade id="1111" name="Unknown" />
+	<upgrade id="1112" name="Unknown 2" />
+	<upgrade id="1113" name="Chromer 3" />
+	<upgrade id="1114" name="Slamin 3" />
+	<upgrade id="1115" name="Chromer" />
+	<upgrade id="1116" name="Slamin" />
+	<upgrade id="1117" name="Chromer" />
+	<upgrade id="1118" name="Chrome trim" />
+	<upgrade id="1119" name="Wheelcovers" />
+	<upgrade id="1120" name="Chrome trim 2" />
+	<upgrade id="1121" name="Wheelcovers 2" />
+	<upgrade id="1122" name="Chrome flames 2" />
+	<upgrade id="1123" name="Chrome bars" />
+	<upgrade id="1124" name="Chrome arches 2" />
+	<upgrade id="1125" name="Chrome lights" />
+	<upgrade id="1126" name="Chromer 4" />
+	<upgrade id="1127" name="Slamin 4" />
+	<upgrade id="1128" name="Vinyl hardtop" />
+	<upgrade id="1129" name="Chromer 5" />
+	<upgrade id="1130" name="Hardtop" />
+	<upgrade id="1131" name="Softtop" />
+	<upgrade id="1132" name="Slamin 5" />
+	<upgrade id="1133" name="Chrome strip 5" />
+	<upgrade id="1134" name="Chrome strip 6" />
+	<upgrade id="1135" name="Slamin 6" />
+	<upgrade id="1136" name="Chromer 6" />
+	<upgrade id="1137" name="Chrome strip 7" />
+	<upgrade id="1138" name="Alien" />
+	<upgrade id="1139" name="X-flow 5" />
+	<upgrade id="1140" name="X-flow" />
+	<upgrade id="1141" name="Alien" />
+	<upgrade id="1142" name="Oval vents Right" />
+	<upgrade id="1143" name="Oval vents Left" />
+	<upgrade id="1144" name="Square vents Right" />
+	<upgrade id="1145" name="Square vents Left" />
+	<upgrade id="1146" name="Alien 2" />
+	<upgrade id="1147" name="X-flow 6" />
+	<upgrade id="1148" name="X-flow 2" />
+	<upgrade id="1149" name="Alien 2" />
+	<upgrade id="1150" name="X-flow 3" />
+	<upgrade id="1151" name="Alien 3" />
+	<upgrade id="1152" name="Alien" />
+	<upgrade id="1153" name="X-flow" />
+	<upgrade id="1154" name="X-flow 4" />
+	<upgrade id="1155" name="Alien 2" />
+	<upgrade id="1156" name="Alien 4" />
+	<upgrade id="1157" name="X-flow 2" />
+	<upgrade id="1158" name="Alien 3" />
+	<upgrade id="1159" name="X-flow 5" />
+	<upgrade id="1160" name="X-flow 3" />
+	<upgrade id="1161" name="Alien 5" />
+	<upgrade id="1162" name="Alien 4" />
+	<upgrade id="1163" name="Alien 5" />
+	<upgrade id="1164" name="X-flow 7" />
+	<upgrade id="1165" name="X-flow 4" />
+	<upgrade id="1166" name="Alien 3" />
+	<upgrade id="1167" name="Alien 6" />
+	<upgrade id="1168" name="X-flow 6" />
+	<upgrade id="1169" name="Alien 4" />
+	<upgrade id="1170" name="X-flow 5" />
+	<upgrade id="1171" name="Alien 5" />
+	<upgrade id="1172" name="X-flow 6" />
+	<upgrade id="1173" name="X-flow 7" />
+	<upgrade id="1174" name="Chromer 2" />
+	<upgrade id="1175" name="Slamin" />
+	<upgrade id="1176" name="Chromer" />
+	<upgrade id="1177" name="Slamin" />
+	<upgrade id="1178" name="Slamin 2" />
+	<upgrade id="1179" name="Chromer 3" />
+	<upgrade id="1180" name="Chromer 2" />
+	<upgrade id="1181" name="Slamin 2" />
+	<upgrade id="1182" name="Chromer 4" />
+	<upgrade id="1183" name="Slamin 3" />
+	<upgrade id="1184" name="Chromer 3" />
+	<upgrade id="1185" name="Slamin 3" />
+	<upgrade id="1186" name="Slamin 4" />
+	<upgrade id="1187" name="Chromer 4" />
+	<upgrade id="1188" name="Slamin 4" />
+	<upgrade id="1189" name="Chromer 5" />
+	<upgrade id="1190" name="Slamin 5" />
+	<upgrade id="1191" name="Chromer 6" />
+	<upgrade id="1192" name="Chromer 5" />
+	<upgrade id="1193" name="Slamin 5" />
+</upgrades>

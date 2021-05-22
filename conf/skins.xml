@@ -1,0 +1,301 @@
+<skins>
+	<skin model="0" name="CJ" groups="Tough Guys" walking="54" />
+	<skin model="1" name="Truth" groups="Special" walking="118" />
+	<skin model="2" name="Maccer" groups="Special" walking="118" />
+	<skin model="7" name="Casual Jeanjacket" groups="Casual Generics" walking="118" />
+	<skin model="9" name="Business Lady" groups="Formal Generics" walking="129" />
+	<skin model="10" name="Old Fat Lady" groups="Casual Generics,Fatties" walking="137" />
+	<skin model="11" name="Card Dealer 1" groups="Casino Workers" walking="129" />
+	<skin model="12" name="Classy Gold Hooker" groups="Wealthy" walking="132" />
+	<skin model="13" name="Homegirl" groups="Gangs,Sports" walking="129" />
+	<skin model="14" name="Floral Shirt" groups="Casual Generics" walking="118" />
+	<skin model="15" name="Plaid Baldy" groups="Casual Generics" walking="118" />
+	<skin model="16" name="Earmuff Worker" groups="Construction Workers" walking="118" />
+	<skin model="17" name="Black suit" groups="Formal Generics" walking="118" />
+	<skin model="18" name="Black Beachguy" groups="Beach,Tough Guys" walking="118" />
+	<skin model="19" name="Beach Gangsta" groups="Gangstas" walking="121" />
+	<skin model="20" name="Fresh Prince" groups="Casual Generics,Celebrities" walking="118" />
+	<skin model="21" name="Striped Gangsta" groups="Gangstas,Sports" walking="121" />
+	<skin model="22" name="Orange Sportsman" groups="Gangstas,Sports" walking="122" />
+	<skin model="23" name="Skater Kid" groups="Casual Generics,Sports" walking="118" />
+	<skin model="24" name="LS Coach" groups="Sports" walking="118" />
+	<skin model="25" name="Varsity jacket" groups="Duplicates,Sports" walking="118" />
+	<skin model="26" name="Hiker" groups="Tourists" walking="118" />
+	<skin model="27" name="Construction 1" groups="Construction Workers" walking="118" />
+	<skin model="28" name="Black Dealer" groups="Gangstas,Tough Guys,Drug Workers" walking="122" />
+	<skin model="29" name="White Dealer" groups="Gangstas,Drug Workers" walking="118" />
+	<skin model="30" name="Religious Essey" groups="Gangstas,Tough Guys" walking="118" />
+	<skin model="31" name="Fat Cowgirl" groups="Country,Fatties" walking="137" />
+	<skin model="32" name="Eyepatch" groups="Casual Generics" walking="118" />
+	<skin model="33" name="Bounty Hunter" groups="Country,Tough Guys" walking="118" />
+	<skin model="34" name="Marlboro Man" groups="Country" walking="118" />
+	<skin model="35" name="Fisherman" groups="Tourists" walking="118" />
+	<skin model="36" name="Mailman" groups="Sports,Other Workers" walking="118" />
+	<skin model="37" name="Baseball Dad" groups="Tourists" walking="118" />
+	<skin model="38" name="Old Golf Lady" groups="Fatties,Tourists" walking="129" />
+	<skin model="39" name="Old Maid" groups="Casual Generics,Fatties" walking="137" />
+	<skin model="40" name="Classy Dark Hooker" groups="Wealthy" walking="132" />
+	<skin model="41" name="Tracksuit Girl" groups="Wealthy" walking="129" />
+	<skin model="43" name="Porn Producer" groups="Nightclubbers,Sex Industry" walking="118" />
+	<skin model="44" name="Tatooed Plaid" groups="Country" walking="118" />
+	<skin model="45" name="Beach Mustache" groups="Beach" walking="118" />
+	<skin model="46" name="Dark Romeo" groups="Nightclubbers" walking="118" />
+	<skin model="47" name="Top Button Essey" groups="Gangstas" walking="118" />
+	<skin model="48" name="Top Button Essey 2" groups="Gangstas" walking="118" />
+	<skin model="49" name="Ninja Sensei" groups="Fighters" walking="120" />
+	<skin model="50" name="Mechanic" groups="Other Workers" walking="118" />
+	<skin model="51" name="Black Bicyclist" groups="Sports" walking="118" />
+	<skin model="52" name="White Bicyclist" groups="Sports" walking="118" />
+	<skin model="53" name="Golf Lady" groups="Casual Generics,Fatties,Sports" walking="134" />
+	<skin model="54" name="Hispanic Woman" groups="Casual Generics,Fatties" walking="134" />
+	<skin model="55" name="Rich Bitch" groups="Wealthy" walking="129" />
+	<skin model="56" name="Legwarmers 1" groups="Casual Generics,Duplicates" walking="129" />
+	<skin model="57" name="Chinese Businessman" groups="Formal Generics" walking="118" />
+	<skin model="58" name="Chinese Plaid" groups="Casual Generics" walking="118" />
+	<skin model="59" name="Chinese Romeo" groups="Nightclubbers" walking="118" />
+	<skin model="60" name="Chinese Casual" groups="Casual Generics" walking="118" />
+	<skin model="61" name="Pilot" groups="Formal Generics,Career Workers" walking="118" />
+	<skin model="62" name="Pajama Man 1" groups="Casual Generics" walking="120" />
+	<skin model="63" name="Trashy Hooker" groups="Sex Industry" walking="133" />
+	<skin model="64" name="Transvestite" groups="Sex Industry" walking="133" />
+	<skin model="66" name="Varsity Bandits" groups="Duplicates,Sports" walking="118" />
+	<skin model="67" name="Red Bandana" groups="Gangstas" walking="118" />
+	<skin model="68" name="Preist" groups="Career Workers" walking="118" />
+	<skin model="69" name="Denim Girl" groups="Casual Generics" walking="129" />
+	<skin model="70" name="Scientist" groups="Career Workers" walking="118" />
+	<skin model="71" name="Security Guard" groups="Authorities,Other Workers" walking="118" />
+	<skin model="72" name="Bearded Hippie" groups="Casual Generics" walking="118" />
+	<skin model="73" name="Flag Bandana" groups="Military" walking="118" />
+	<skin model="75" name="Skanky Hooker" groups="Sex Industry,Weirdos" walking="133" />
+	<skin model="76" name="Businesswoman 1" groups="Formal Generics" walking="132" />
+	<skin model="77" name="Bag Lady" groups="Homeless" walking="118" />
+	<skin model="78" name="Homeless Scarf" groups="Homeless" walking="118" />
+	<skin model="79" name="Fat Homeless" groups="Homeless" walking="118" />
+	<skin model="80" name="Red Boxer" groups="Fighters,Sports" walking="118" />
+	<skin model="81" name="Blue Boxer" groups="Fighters,Sports" walking="118" />
+	<skin model="82" name="Fatty Elvis" groups="Casino Workers" walking="118" />
+	<skin model="83" name="Whitesuit Elvis" groups="Casino Workers" walking="118" />
+	<skin model="84" name="Bluesuit Elvis" groups="Casino Workers" walking="118" />
+	<skin model="85" name="Furcoat Hooker" groups="Sex Industry" walking="133" />
+	<skin model="87" name="Firecrotch" groups="Sex Industry" walking="132" />
+	<skin model="88" name="Casual Old Lady" groups="Casual Generics,Fatties" walking="134" />
+	<skin model="89" name="Cleaning Lady" groups="Fatties" walking="137" />
+	<skin model="90" name="Barely Covered" groups="Sex Industry" walking="136" />
+	<skin model="91" name="Sharon Stone" groups="Celebrities,Wealthy" walking="132" />
+	<skin model="92" name="Rollergirl" groups="Beach,Sports" walking="138" />
+	<skin model="93" name="Hoop Earrings 1" groups="Casual Generics" walking="132" />
+	<skin model="94" name="Andy Capp" groups="Sports" walking="118" />
+	<skin model="95" name="Poor Old Man" groups="Homeless" walking="118" />
+	<skin model="96" name="Soccer Player" groups="Beach,Sports" walking="125" />
+	<skin model="97" name="Baywatch Dude" groups="Beach" walking="125" />
+	<skin model="98" name="Dark Romeo 2" groups="Nightclubbers" walking="118" />
+	<skin model="99" name="Rollerguy" groups="Sports,Wealthy" walking="138" />
+	<skin model="100" name="Biker Blackshirt" groups="Gangs" walking="118" />
+	<skin model="101" name="Jacket Hippie" groups="Casual Generics" walking="118" />
+	<skin model="102" name="Baller Shirt" groups="Gangs" walking="121" />
+	<skin model="103" name="Baller Jacket" groups="Fatties,Fatties,Gangs" walking="122" />
+	<skin model="104" name="Baller Sweater" groups="Gangs" walking="121" />
+	<skin model="105" name="Grove Sweater" groups="Fatties,Gangs" walking="122" />
+	<skin model="106" name="Grove Topbutton" groups="Gangs" walking="121" />
+	<skin model="107" name="Grove Jersey" groups="Gangs" walking="122" />
+	<skin model="108" name="Vagos Topless" groups="Gangs" walking="121" />
+	<skin model="109" name="Vagos Pants" groups="Gangs" walking="122" />
+	<skin model="110" name="Vagos Shorts" groups="Gangs" walking="121" />
+	<skin model="111" name="Russian Muscle" groups="Gangs" walking="118" />
+	<skin model="112" name="Russian Hitman" groups="Gangs" walking="118" />
+	<skin model="113" name="Russian Boss" groups="Gangs" walking="118" />
+	<skin model="114" name="Aztecas Stripes" groups="Gangs" walking="121" />
+	<skin model="115" name="Aztecas Jacket" groups="Gangs" walking="122" />
+	<skin model="116" name="Aztecas Shorts" groups="Gangs" walking="121" />
+	<skin model="117" name="Triad 1" groups="Gangs" walking="118" />
+	<skin model="118" name="Triad 2" groups="Gangs" walking="118" />
+	<skin model="120" name="Sindacco Suit" groups="Gangs" walking="118" />
+	<skin model="121" name="Da Nang Army" groups="Gangs" walking="121" />
+	<skin model="122" name="Da Nang Bandana" groups="Gangs" walking="122" />
+	<skin model="123" name="Da Nang Shades" groups="Gangs" walking="121" />
+	<skin model="124" name="Sindacco Muscle" groups="Gangs" walking="121" />
+	<skin model="125" name="Mafia Enforcer" groups="Gangs" walking="118" />
+	<skin model="126" name="Mafia Wiseguy" groups="Gangs" walking="118" />
+	<skin model="127" name="Mafia Hitman" groups="Gangs" walking="118" />
+	<skin model="128" name="Native Rancher" groups="Country,Truckers" walking="118" />
+	<skin model="129" name="Native Librarian" groups="Country" walking="134" />
+	<skin model="130" name="Native Ugly" groups="Country,Fatties" walking="134" />
+	<skin model="131" name="Native Sexy" groups="Country" walking="132" />
+	<skin model="132" name="Native Geezer" groups="Country" walking="118" />
+	<skin model="133" name="Furys Trucker" groups="Country,Truckers" walking="118" />
+	<skin model="134" name="Homeless Smoker" groups="Homeless" walking="120" />
+	<skin model="135" name="Skullcap Hobo" groups="Homeless" walking="118" />
+	<skin model="136" name="Old Rasta" groups="Casual Generics" walking="118" />
+	<skin model="137" name="Boxhead" groups="Homeless,Weirdos" walking="118" />
+	<skin model="138" name="Bikini Tattoo" groups="Beach" walking="129" />
+	<skin model="139" name="Yellow Bikini" groups="Beach" walking="129" />
+	<skin model="140" name="Buxom Bikini" groups="Beach" walking="129" />
+	<skin model="141" name="Cute Librarian" groups="Formal Generics" walking="131" />
+	<skin model="142" name="African 1" groups="Casual Generics" walking="118" />
+	<skin model="143" name="Sam Jackson" groups="Casual Generics,Celebrities,Gangstas" walking="121" />
+	<skin model="144" name="Drug Worker 1" groups="Drug Workers" walking="122" />
+	<skin model="145" name="Drug Worker 2" groups="Drug Workers" walking="129" />
+	<skin model="146" name="Drug Worker 3" groups="Drug Workers" walking="118" />
+	<skin model="147" name="Sigmund Freud" groups="Celebrities,Formal Generics,Career Workers" walking="118" />
+	<skin model="148" name="Businesswoman 2" groups="Formal Generics" walking="131" />
+	<skin model="150" name="Businesswoman 3" groups="Formal Generics" walking="131" />
+	<skin model="151" name="Melanie" groups="Fatties,Weirdos" walking="132" />
+	<skin model="152" name="Schoolgirl 1" groups="Sex Industry" walking="133" />
+	<skin model="153" name="Foreman" groups="Construction Workers" walking="118" />
+	<skin model="154" name="Beach Blonde" groups="Beach" walking="118" />
+	<skin model="155" name="Pizza Guy" groups="Food Workers" walking="118" />
+	<skin model="156" name="Old Reece" groups="Barbers" walking="118" />
+	<skin model="157" name="Farmer Girl" groups="Country" walking="129" />
+	<skin model="158" name="Farmer" groups="Country" walking="118" />
+	<skin model="159" name="Farmer Redneck" groups="Country" walking="118" />
+	<skin model="160" name="Bald Redneck" groups="Country" walking="120" />
+	<skin model="161" name="Smoking Cowboy" groups="Country" walking="118" />
+	<skin model="162" name="Inbred" groups="Country" walking="120" />
+	<skin model="163" name="Casino Bouncer 1" groups="Authorities,Casino Workers" walking="118" />
+	<skin model="164" name="Casino Bouncer 2" groups="Authorities,Casino Workers" walking="118" />
+	<skin model="165" name="Agent Kay" groups="Authorities" walking="118" />
+	<skin model="166" name="Agent Jay" groups="Authorities" walking="118" />
+	<skin model="167" name="Chicken" groups="Weirdos,Food Workers" walking="118" />
+	<skin model="168" name="Hotdog Vender" groups="Food Workers" walking="118" />
+	<skin model="169" name="Asian Escort" groups="Formal Generics,Casino Workers" walking="132" />
+	<skin model="170" name="PubeStache Tshirt" groups="Casual Generics" walking="118" />
+	<skin model="171" name="Card Dealer 2" groups="Casino Workers" walking="118" />
+	<skin model="172" name="Card Dealer 3" groups="Casino Workers" walking="131" />
+	<skin model="173" name="Rifa Hat" groups="Gangs" walking="121" />
+	<skin model="174" name="Rifa Vest" groups="Gangs" walking="122" />
+	<skin model="175" name="Rifa Suspenders" groups="Gangs" walking="121" />
+	<skin model="176" name="Style Barber" groups="Barbers" walking="118" />
+	<skin model="177" name="Vanilla Ice Barber" groups="Barbers" walking="118" />
+	<skin model="178" name="Masked Stripper" groups="Sex Industry" walking="132" />
+	<skin model="179" name="War Vet" groups="Military" walking="118" />
+	<skin model="180" name="Bball Player" groups="Fighters,Sports" walking="118" />
+	<skin model="181" name="Punk" groups="Weirdos" walking="118" />
+	<skin model="182" name="Pajama Man 2" groups="Casual Generics,Fatties" walking="118" />
+	<skin model="183" name="Klingon" groups="Tough Guys" walking="118" />
+	<skin model="184" name="Neckbeard" groups="Casual Generics" walking="118" />
+	<skin model="185" name="Nervous Guy" groups="Nightclubbers" walking="118" />
+	<skin model="186" name="Teacher" groups="Formal Generics" walking="118" />
+	<skin model="187" name="Japanese Businessman 1" groups="Formal Generics" walking="118" />
+	<skin model="188" name="Green Shirt" groups="Casual Generics" walking="118" />
+	<skin model="189" name="Valet" groups="Casino Workers,Other Workers" walking="118" />
+	<skin model="190" name="Barbara Schternvart" groups="Police,Girlfriends" walking="131" />
+	<skin model="191" name="Helena Wankstein" groups="Girlfriends" walking="129" />
+	<skin model="192" name="Michelle Cannes" groups="Girlfriends" walking="132" />
+	<skin model="193" name="Katie Zhan" groups="Girlfriends" walking="132" />
+	<skin model="194" name="Millie Perkins" groups="Girlfriends" walking="132" />
+	<skin model="195" name="Denise Robinson" groups="Girlfriends,Sports" walking="129" />
+	<skin model="196" name="Aunt May" groups="Country" walking="134" />
+	<skin model="197" name="Smoking Maid" groups="Country,Fatties" walking="134" />
+	<skin model="198" name="Ranch Cowgirl" groups="Country" walking="129" />
+	<skin model="199" name="Heidi" groups="Country,Fatties" walking="129" />
+	<skin model="200" name="Hairy Redneck" groups="Country,Homeless" walking="118" />
+	<skin model="201" name="Trucker Girl" groups="Country,Truckers" walking="129" />
+	<skin model="202" name="Beer Trucker" groups="Country,Truckers" walking="118" />
+	<skin model="203" name="Ninja 1" groups="Fighters" walking="118" />
+	<skin model="204" name="Ninja 2" groups="Fighters" walking="118" />
+	<skin model="205" name="Burger Girl" groups="Food Workers" walking="129" />
+	<skin model="206" name="Money Trucker" groups="Truckers" walking="118" />
+	<skin model="207" name="Grove Booty" groups="Fatties,Gangs" walking="133" />
+	<skin model="209" name="Noodle Vender" groups="Food Workers" walking="120" />
+	<skin model="210" name="Sloppy Tourist" groups="Tourists" walking="120" />
+	<skin model="211" name="Staff Girl" groups="Other Workers" walking="129" />
+	<skin model="212" name="Tin Foil Hat" groups="Homeless,Weirdos" walking="118" />
+	<skin model="213" name="Hobo Elvis" groups="Homeless,Weirdos,Casino Workers" walking="118" />
+	<skin model="214" name="Caligula Waitress" groups="Casino Workers" walking="129" />
+	<skin model="215" name="Explorer" groups="Casual Generics" walking="129" />
+	<skin model="216" name="Turtleneck" groups="Wealthy" walking="129" />
+	<skin model="217" name="Staff Guy" groups="Casual Generics,Other Workers" walking="118" />
+	<skin model="218" name="Old Woman" groups="Casual Generics,Fatties" walking="129" />
+	<skin model="219" name="Lady In Red" groups="Formal Generics" walking="129" />
+	<skin model="220" name="African 2" groups="Casual Generics" walking="118" />
+	<skin model="221" name="Beardo Casual" groups="Casual Generics,Duplicates" walking="118" />
+	<skin model="222" name="Beardo Clubbing" groups="Casual Generics,Duplicates" walking="118" />
+	<skin model="223" name="Greasy Nightclubber" groups="Nightclubbers" walking="118" />
+	<skin model="224" name="Elderly Asian 1" groups="Casual Generics" walking="129" />
+	<skin model="225" name="Elderly Asian 2" groups="Casual Generics" walking="129" />
+	<skin model="226" name="Legwarmers 2" groups="Casual Generics,Duplicates" walking="129" />
+	<skin model="227" name="Japanese Businessman 2" groups="Formal Generics" walking="118" />
+	<skin model="228" name="Japanese Businessman 3" groups="Formal Generics" walking="118" />
+	<skin model="229" name="Asian Tourist" groups="Casual Generics" walking="118" />
+	<skin model="230" name="Hooded Hobo" groups="Homeless,Weirdos" walking="118" />
+	<skin model="231" name="Grannie" groups="Casual Generics,Fatties" walking="129" />
+	<skin model="232" name="Grouchy lady" groups="Casual Generics,Fatties" walking="129" />
+	<skin model="233" name="Hoop Earrings 2" groups="Casual Generics" walking="129" />
+	<skin model="234" name="Buzzcut" groups="Casual Generics" walking="118" />
+	<skin model="235" name="Retired Tourist" groups="Tourists" walking="118" />
+	<skin model="236" name="Happy Old Man" groups="Casual Generics,Country" walking="118" />
+	<skin model="237" name="Leopard Hooker" groups="Sex Industry" walking="133" />
+	<skin model="238" name="Amazon" groups="Sex Industry" walking="133" />
+	<skin model="239" name="Hobo" groups="Weirdos" walking="118" />
+	<skin model="240" name="Hugh Grant" groups="Celebrities,Nightclubbers,Wealthy" walking="118" />
+	<skin model="241" name="Afro Brother" groups="Gangstas,Weirdos" walking="118" />
+	<skin model="242" name="Dreadlock Brother" groups="Gangstas,Weirdos" walking="118" />
+	<skin model="243" name="Ghetto Booty" groups="Gangstas" walking="133" />
+	<skin model="244" name="Lace Stripper" groups="Sex Industry" walking="132" />
+	<skin model="245" name="Ghetto Ho" groups="Fatties,Sex Industry" walking="133" />
+	<skin model="246" name="Cop Stripper" groups="Police,Sex Industry" walking="132" />
+	<skin model="247" name="Biker Vest" groups="Duplicates,Gangs" walking="118" />
+	<skin model="248" name="Biker Headband" groups="Gangs" walking="118" />
+	<skin model="249" name="Pimp" groups="Sex Industry" walking="118" />
+	<skin model="250" name="Green Tshirt" groups="Casual Generics" walking="118" />
+	<skin model="251" name="Lifeguard" groups="Beach,Celebrities,Other Workers" walking="129" />
+	<skin model="252" name="Naked Freak" groups="Beach,Weirdos" walking="118" />
+	<skin model="253" name="Bus Driver" groups="Other Workers" walking="118" />
+	<skin model="254" name="Biker Vest b" groups="Duplicates,Gangs" walking="118" />
+	<skin model="255" name="Limo Driver" groups="Formal Generics,Other Workers" walking="118" />
+	<skin model="256" name="Shoolgirl 2" groups="Sex Industry" walking="132" />
+	<skin model="257" name="Bondage Girl" groups="Sex Industry" walking="132" />
+	<skin model="258" name="Joe Pesci" groups="Celebrities,Fatties" walking="118" />
+	<skin model="259" name="Chris Penn" groups="Celebrities,Fatties" walking="118" />
+	<skin model="260" name="Construction 2" groups="Construction Workers" walking="118" />
+	<skin model="261" name="Southerner" groups="Country" walking="118" />
+	<skin model="262" name="Pajama Man 2 b" groups="Casual Generics" walking="118" />
+	<skin model="263" name="Asian Hostess" groups="Formal Generics" walking="129" />
+	<skin model="264" name="Whoopee the Clown" groups="Weirdos,Food Workers" walking="118" />
+	<skin model="265" name="Tenpenny" groups="Special" walking="118" />
+	<skin model="266" name="Pulaski" groups="Special" walking="118" />
+	<skin model="267" name="Hern" groups="Special" walking="118" />
+	<skin model="268" name="Dwayne" groups="Special" walking="118" />
+	<skin model="269" name="Big Smoke" groups="Special" walking="124" />
+	<skin model="270" name="Sweet" groups="Special" walking="122" />
+	<skin model="271" name="Ryder" groups="Special" walking="121" />
+	<skin model="272" name="Forelli Guy" groups="Special" walking="118" />
+	<skin model="274" name="Medic 1" groups="Medics" walking="128" />
+	<skin model="275" name="Medic 2" groups="Medics" walking="128" />
+	<skin model="276" name="Medic 3" groups="Medics" walking="128" />
+	<skin model="277" name="Fireman LS" groups="Firemen" walking="128" />
+	<skin model="278" name="Fireman LV" groups="Firemen" walking="128" />
+	<skin model="279" name="Fireman SF" groups="Firemen" walking="128" />
+	<skin model="280" name="Cop 1" groups="Police" walking="128" />
+	<skin model="281" name="Cop 2" groups="Police" walking="128" />
+	<skin model="282" name="Cop 3" groups="Police" walking="128" />
+	<skin model="283" name="Cop 4" groups="Police" walking="128" />
+	<skin model="284" name="Cop 5" groups="Police" walking="128" />
+	<skin model="285" name="SWAT" groups="Police" walking="128" />
+	<skin model="286" name="FBI" groups="Police" walking="128" />
+	<skin model="287" name="Army" groups="Military" walking="128" />
+	<skin model="288" name="Cop 6" groups="Police" walking="128" />
+	<skin model="290" name="Rose" groups="Special" walking="118" />
+	<skin model="291" name="Kent Paul" groups="Special" walking="118" />
+	<skin model="292" name="Cesar" groups="Special" walking="118" />
+	<skin model="293" name="OG Loc" groups="Special" walking="122" />
+	<skin model="294" name="Wuzi Mu" groups="Special" walking="127" />
+	<skin model="295" name="Mike Toreno" groups="Special" walking="118" />
+	<skin model="296" name="Jizzy" groups="Special" walking="118" />
+	<skin model="297" name="Madd Dogg" groups="Special" walking="118" />
+	<skin model="298" name="Catalina" groups="Special" walking="129" />
+	<skin model="299" name="Claude from GTA 3" groups="Special" walking="118" />
+	<skin model="300" name="Ryder" groups="Special" walking="121" />
+	<skin model="301" name="Ryder Robber" groups="Special" walking="121" />
+	<skin model="302" name="Emmet" groups="Special" walking="118" />
+	<skin model="303" name="Andre" groups="Special" walking="118" />
+	<skin model="304" name="Kendl" groups="Special" walking="129" />
+	<skin model="305" name="Jethro" groups="Special" walking="118" />
+	<skin model="306" name="Zero" groups="Special" walking="118" />
+	<skin model="307" name="T-bone Mendez" groups="Special" walking="118" />
+	<skin model="308" name="Sindaco Guy" groups="Special" walking="118" />
+	<skin model="309" name="Janitor" groups="Special" walking="118" />
+	<skin model="310" name="Big Bear" groups="Special" walking="118" />
+	<skin model="311" name="Big Smoke with Vest" groups="Special" walking="124" />
+	<skin model="312" name="Physco" groups="Special" walking="118" />
+</skins>

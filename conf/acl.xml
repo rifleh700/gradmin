@@ -1,0 +1,315 @@
+<!-- 
+
+	This is default admin panel ACL rights (only for development).
+	Don't edit this file. Edit server acl.xml with text editor or gradmin/admin panel
+
+-->
+
+<ACL>
+	<acl name="Admin">
+		<right name="command.gradmin" access="true" />
+
+		<right name="general.adminpanel" access="true" />
+		<right name="general.players" access="true" />
+		<right name="general.reports" access="true" />
+		<right name="general.resources" access="true" />
+		<right name="general.execute" access="true" />
+		<right name="general.server" access="true" />
+		<right name="general.environment" access="true" />
+		<right name="general.bans" access="true" />
+		<right name="general.mutes" access="true" />
+		<right name="general.penaltylogs" access="true" />
+		<right name="general.connectionlogs" access="true" />
+		<right name="general.stafflogs" access="true" />
+		<right name="general.adminchat" access="true" />
+		<right name="general.acl" access="true" />
+		
+		<!-- players -->
+		<right name="command.mute" access="true" />
+		<right name="command.unmute" access="true" />
+		<right name="command.freeze" access="true" />
+		<right name="command.unfreeze" access="true" />
+		<right name="command.shout" access="true" />
+		<right name="command.spectate" access="true" />
+		<right name="command.slap" access="true" />
+		<right name="command.killplayer" access="true" />
+		
+		<right name="command.setplayerpassword" access="true" />
+		<right name="command.logoutplayer" access="true" />
+		<right name="command.loginplayer" access="true" />
+		<right name="command.setplayeraclgroup" access="true" />
+		<right name="command.resetplayeraclgroup" access="true" />
+		
+		<right name="command.setplayerhealth" access="true" />
+		<right name="command.setplayerarmour" access="true" />
+		<right name="command.healplayer" access="true" />
+		<right name="command.setmoney" access="true" />
+		<right name="command.setplayerskin" access="true" />
+		<right name="command.setplayerwalking" access="true" />
+		<right name="command.setplayerfighting" access="true" />
+		<right name="command.setplayerstat" access="true" />
+		<right name="command.setplayerweaponstats" access="true" />
+		<right name="command.setplayername" access="true" />
+		<right name="command.setplayerteam" access="true" />
+		<right name="command.removefromteam" access="true" />
+		<right name="command.giveplayerjetpack" access="true" />
+		<right name="command.removeplayerjetpack" access="true" />
+		<right name="command.giveplayervehicle" access="true" />
+		<right name="command.setplayervehicle" access="true" />
+		<right name="command.warpplayertopoint" access="true" />
+		<right name="command.giveplayerweapon" access="true" />
+		<right name="command.takeplayerweapon" access="true" />
+		<right name="command.takeplayerallweapon" access="true" />
+		<right name="command.warpplayertoplayer" access="true" />
+		<right name="command.warpplayertointerior" access="true" />
+		<right name="command.setplayerinterior" access="true" />
+		<right name="command.setplayerdimension" access="true" />
+		<right name="command.getscreen" access="true" />
+		<right name="command.createteam" access="true" />
+		<right name="command.destroyteam" access="true" />
+		<right name="command.addvehicleupgrades" access="true" />
+		<right name="command.customize" access="true" />
+		<right name="command.setplayervehiclehealth" access="true" />
+		<right name="command.repairplayervehicle" access="true" />
+		<right name="command.addplayerupgrades" access="true" />
+		<right name="command.removeplayerupgrades" access="true" />
+		<right name="command.setplayerpaintjob" access="true" />
+		<right name="command.setplayervehiclecolor" access="true" />
+		<right name="command.setplayervehiclelightcolor" access="true" />
+		<right name="command.blowplayervehicle" access="true" />
+		<right name="command.destroyplayervehicle" access="true" />
+		<right name="command.ejectplayer" access="true" />
+		<right name="command.sayasadm" access="true" />
+		<right name="command.pmasadm" access="true" />
+
+		<!-- reports -->
+		<right name="command.acceptreport" access="true" />
+		<right name="command.removereport" access="true" />
+
+		<!-- resources -->
+		<right name="command.setsetting" access="true" />
+		<right name="command.setserverpassword" access="true" />
+		<right name="command.resetpassword" access="true" />
+		<right name="command.setservergametype" access="true" />
+		<right name="command.setmapname" access="true" />
+		<right name="command.setserverfpslimit" access="true" />
+		<right name="command.setserverglitch" access="true" />
+		<right name="command.setserverworldspecialproperty" access="true" />
+		<right name="command.setservertime" access="true" />
+		<right name="command.setserverminuteduration" access="true" />
+		<right name="command.setserverweather" access="true" />
+		<right name="command.blendserverweather" access="true" />
+		<right name="command.setserverblurlevel" access="true" />
+		<right name="command.setserverheathaze" access="true" />
+		<right name="command.setwaves" access="true" />
+		<right name="command.setgamespeed" access="true" />
+		<right name="command.setgravity" access="true" />
+		<right name="command.kick" access="true" />
+		<right name="command.ban" access="true" />
+		<right name="command.banserial" access="true" />
+		<right name="command.banip" access="true" />
+		<right name="command.banserialip" access="true" />
+		<right name="command.unban" access="true" />
+		<right name="command.setbannick" access="true" />
+		<right name="command.setbanreason" access="true" />
+		<right name="command.setbanduration" access="true" />
+		<right name="command.setbanadmin" access="true" />
+		<right name="command.muteserial" access="true" />
+		<right name="command.unmuteserial" access="true" />
+		<right name="command.setmutenick" access="true" />
+		<right name="command.setmuteadmin" access="true" />
+		<right name="command.setmutereason" access="true" />
+		<right name="command.setmuteduration" access="true" />
+		<right name="command.aclcreate" access="true" />
+		<right name="command.acldestroy" access="true" />
+		<right name="command.aclcreategroup" access="true" />
+		<right name="command.acldestroygroup" access="true" />
+		<right name="command.aclgroupaddacl" access="true" />
+		<right name="command.aclgroupremoveacl" access="true" />
+		<right name="command.aclgroupaddobject" access="true" />
+		<right name="command.aclgroupremoveobject" access="true" />
+		<right name="command.aclsetright" access="true" />
+		<right name="command.aclremoveright" access="true" />
+		<right name="command.restoreadminacl" access="true" />
+		<right name="command.restoreacl" access="true" />
+		<right name="command.saveacl" access="true" />
+		<right name="command.canonacl" access="true" />
+		<right name="command.setpingkicker" access="true" />
+		<right name="command.setfpskicker" access="true" />
+		<right name="command.setidlekicker" access="true" />
+		<right name="command.warpme" access="true" />
+		<right name="command.admsay" access="true" />
+
+		<right name="command.execute" access="true" />
+		<right name="command.cexecute" access="true" />
+
+		<!-- environment -->
+		<right name="command.setserverocclusions" access="true" />
+		<right name="command.setserverfarclipdistance" access="true" />
+		<right name="command.setserverfogdistance" access="true" />
+		<right name="command.setserverclouds" access="true" />
+		<right name="command.setserverrainlevel" access="true" />
+		<right name="command.setserverskygradient" access="true" />
+		<right name="command.setservermoonsize" access="true" />
+		<right name="command.setserversunsize" access="true" />
+		<right name="command.setserversuncolor" access="true" />
+		<right name="command.setserverwaveheight" access="true" />
+		<right name="command.setserverwatercolor" access="true" />
+		<right name="command.lockservertrafficlights" access="true" />
+		<right name="command.setservertrafficlightstate" access="true" />
+	</acl>
+
+	<acl name="Default">
+		<right name="command.gradmin" access="false" />
+
+		<right name="general.adminpanel" access="false" />
+		<right name="general.players" access="false" />
+		<right name="general.reports" access="false" />
+		<right name="general.resources" access="false" />
+		<right name="general.execute" access="false" />
+		<right name="general.server" access="false" />
+		<right name="general.environment" access="false" />
+		<right name="general.bans" access="false" />
+		<right name="general.mutes" access="false" />
+		<right name="general.penaltylogs" access="false" />
+		<right name="general.connectionlogs" access="false" />
+		<right name="general.stafflogs" access="false" />
+		<right name="general.adminchat" access="false" />
+		<right name="general.acl" access="false" />
+		
+		<!-- players -->
+		<right name="command.mute" access="false" />
+		<right name="command.unmute" access="false" />
+		<right name="command.freeze" access="false" />
+		<right name="command.unfreeze" access="false" />
+		<right name="command.shout" access="false" />
+		<right name="command.spectate" access="false" />
+		<right name="command.slap" access="false" />
+		<right name="command.killplayer" access="false" />
+		
+		<right name="command.setplayerpassword" access="false" />
+		<right name="command.logoutplayer" access="false" />
+		<right name="command.loginplayer" access="false" />
+		<right name="command.setplayeraclgroup" access="false" />
+		<right name="command.resetplayeraclgroup" access="false" />
+		
+		<right name="command.setplayerhealth" access="false" />
+		<right name="command.setplayerarmour" access="false" />
+		<right name="command.healplayer" access="false" />
+		<right name="command.setmoney" access="false" />
+		<right name="command.setplayerskin" access="false" />
+		<right name="command.setplayerwalking" access="false" />
+		<right name="command.setplayerfighting" access="false" />
+		<right name="command.setplayerstat" access="false" />
+		<right name="command.setplayerweaponstats" access="false" />
+		<right name="command.setplayername" access="false" />
+		<right name="command.setplayerteam" access="false" />
+		<right name="command.removefromteam" access="false" />
+		<right name="command.giveplayerjetpack" access="false" />
+		<right name="command.removeplayerjetpack" access="false" />
+		<right name="command.giveplayervehicle" access="false" />
+		<right name="command.setplayervehicle" access="false" />
+		<right name="command.warpplayertopoint" access="false" />
+		<right name="command.giveplayerweapon" access="false" />
+		<right name="command.takeplayerweapon" access="false" />
+		<right name="command.takeplayerallweapon" access="false" />
+		<right name="command.warpplayertoplayer" access="false" />
+		<right name="command.warpplayertointerior" access="false" />
+		<right name="command.setplayerinterior" access="false" />
+		<right name="command.setplayerdimension" access="false" />
+		<right name="command.getscreen" access="false" />
+		<right name="command.createteam" access="false" />
+		<right name="command.destroyteam" access="false" />
+		<right name="command.addvehicleupgrades" access="false" />
+		<right name="command.customize" access="false" />
+		<right name="command.setplayervehiclehealth" access="false" />
+		<right name="command.repairplayervehicle" access="false" />
+		<right name="command.addplayerupgrades" access="false" />
+		<right name="command.removeplayerupgrades" access="false" />
+		<right name="command.setplayerpaintjob" access="false" />
+		<right name="command.setplayervehiclecolor" access="false" />
+		<right name="command.setplayervehiclelightcolor" access="false" />
+		<right name="command.blowplayervehicle" access="false" />
+		<right name="command.destroyplayervehicle" access="false" />
+		<right name="command.ejectplayer" access="false" />
+		<right name="command.sayasadm" access="false" />
+		<right name="command.pmasadm" access="false" />
+
+		<!-- reports -->
+		<right name="command.acceptreport" access="false" />
+		<right name="command.removereport" access="false" />
+
+		<!-- resources -->
+		<right name="command.setsetting" access="false" />
+		<right name="command.setserverpassword" access="false" />
+		<right name="command.resetpassword" access="false" />
+		<right name="command.setservergametype" access="false" />
+		<right name="command.setmapname" access="false" />
+		<right name="command.setserverfpslimit" access="false" />
+		<right name="command.setserverglitch" access="false" />
+		<right name="command.setserverworldspecialproperty" access="false" />
+		<right name="command.setservertime" access="false" />
+		<right name="command.setserverminuteduration" access="false" />
+		<right name="command.setserverweather" access="false" />
+		<right name="command.blendserverweather" access="false" />
+		<right name="command.setserverblurlevel" access="false" />
+		<right name="command.setserverheathaze" access="false" />
+		<right name="command.setwaves" access="false" />
+		<right name="command.setgamespeed" access="false" />
+		<right name="command.setgravity" access="false" />
+		<right name="command.kick" access="false" />
+		<right name="command.ban" access="false" />
+		<right name="command.banserial" access="false" />
+		<right name="command.banip" access="false" />
+		<right name="command.banserialip" access="false" />
+		<right name="command.unban" access="false" />
+		<right name="command.setbannick" access="false" />
+		<right name="command.setbanreason" access="false" />
+		<right name="command.setbanduration" access="false" />
+		<right name="command.setbanadmin" access="false" />
+		<right name="command.muteserial" access="false" />
+		<right name="command.unmuteserial" access="false" />
+		<right name="command.setmutenick" access="false" />
+		<right name="command.setmuteadmin" access="false" />
+		<right name="command.setmutereason" access="false" />
+		<right name="command.setmuteduration" access="false" />
+		<right name="command.aclcreate" access="false" />
+		<right name="command.acldestroy" access="false" />
+		<right name="command.aclcreategroup" access="false" />
+		<right name="command.acldestroygroup" access="false" />
+		<right name="command.aclgroupaddacl" access="false" />
+		<right name="command.aclgroupremoveacl" access="false" />
+		<right name="command.aclgroupaddobject" access="false" />
+		<right name="command.aclgroupremoveobject" access="false" />
+		<right name="command.aclsetright" access="false" />
+		<right name="command.aclremoveright" access="false" />
+		<right name="command.restoreadminacl" access="false" />
+		<right name="command.restoreacl" access="false" />
+		<right name="command.saveacl" access="false" />
+		<right name="command.canonacl" access="false" />
+		<right name="command.setpingkicker" access="false" />
+		<right name="command.setfpskicker" access="false" />
+		<right name="command.setidlekicker" access="false" />
+		<right name="command.warpme" access="false" />
+		<right name="command.admsay" access="false" />
+
+		<right name="command.execute" access="false" />
+		<right name="command.cexecute" access="false" />
+
+		<!-- environment -->
+		<right name="command.setserverocclusions" access="false" />
+		<right name="command.setserverfarclipdistance" access="false" />
+		<right name="command.setserverfogdistance" access="false" />
+		<right name="command.setserverclouds" access="false" />
+		<right name="command.setserverrainlevel" access="false" />
+		<right name="command.setserverskygradient" access="false" />
+		<right name="command.setservermoonsize" access="false" />
+		<right name="command.setserversunsize" access="false" />
+		<right name="command.setserversuncolor" access="false" />
+		<right name="command.setserverwaveheight" access="false" />
+		<right name="command.setserverwatercolor" access="false" />
+		<right name="command.lockservertrafficlights" access="false" />
+		<right name="command.setservertrafficlightstate" access="false" />
+	</acl>
+
+</ACL>
