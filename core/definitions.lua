@@ -1,5 +1,5 @@
 
-VERSION = "0.1"
+VERSION = "0.2"
 
 RESOURCE = getThisResource()
 RESOURCE_NAME = getResourceName(RESOURCE)
