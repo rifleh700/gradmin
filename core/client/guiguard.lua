@@ -9,6 +9,16 @@ addEventHandler("onClientElementDestroy", guiRoot,
 	end
 )
 
+local _guiSetEnabled = guiSetEnabled
+function guiSetEnabled(element, enabled)
+	if not scheck("u:element:gui,b") then return false end
+
+	if not elementsPermissions[element] then return _guiSetEnabled(element, enabled) end
+
+	enabled = enabled and cSession.hasPermissionTo(elementsPermissions[element])
+	return _guiSetEnabled(element, enabled)
+end
+
 function cGuiGuard.setPermission(element, permission)
 	check("u:element:gui,s")
 	if elementsPermissions[element] then return warn("permission is already set", 2) and false end
@@ -19,16 +29,6 @@ function cGuiGuard.setPermission(element, permission)
 	end
 
 	return true
-end
-
-local _guiSetEnabled = guiSetEnabled
-function guiSetEnabled(element, enabled)
-	if not scheck("u:element:gui,b") then return false end
-
-	if not elementsPermissions[element] then return _guiSetEnabled(element, enabled) end
-
-	enabled = enabled and cSession.hasPermissionTo(elementsPermissions[element])
-	return _guiSetEnabled(element, enabled)
 end
 
 local _guiCreateButton = guiCreateButton
