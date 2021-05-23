@@ -41,14 +41,6 @@ function mPlayers.onQuit()
 
 end
 
-function mPlayers.getBySerial(serial)
-
-	for i, player in ipairs(getElementsByType("player")) do
-		if mPlayers.data[player].serial == serial then return player  end
-	end
-	return nil
-end
-
 mPlayers.sync = {}
 
 function mPlayers.sync.data(player, data)

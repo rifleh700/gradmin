@@ -336,6 +336,7 @@ function mPlayers.gui.onLeftClick()
 	if not player then return end
 
 	local name = getPlayerName(player, true)
+	local playerData = mPlayers.data[player]
 
 	if source == mPlayers.gui.setNameBtn then
 		local name = guiShowInputDialog("Set name", "Enter new name for "..name, getPlayerName(player), guiGetInputNotEmptyParser())
@@ -349,7 +350,7 @@ function mPlayers.gui.onLeftClick()
 		return cCommands.execute("kick", player, reason)
 
 	elseif source == mPlayers.gui.banBtn then
-		return mPlayers.gui.Ban.show(player, mPlayers.data[player].serial, mPlayers.data[player].ip)
+		return mPlayers.gui.Ban.show(player, playerData.serial, playerData.ip)
 
 	elseif source == mPlayers.gui.shoutBtn then
 		local text = guiShowInputDialog("Shout", "Enter text to be shown on player's screen", nil, guiGetInputNotEmptyParser())
@@ -357,13 +358,13 @@ function mPlayers.gui.onLeftClick()
 		cCommands.execute("shout", player, text)
 
 	elseif source == mPlayers.gui.muteBtn then
-		if mPlayers.data[player].mute then
+		if playerData.mute then
 			local reason = guiShowInputDialog("Unmute player "..name, "Enter the unmute reason", nil, guiGetInputNotEmptyParser(), true)
 			if reason == false then return end
 			return cCommands.execute("unmute", player, reason)
 
 		else
-			return mPlayers.gui.Mute.show(player, mPlayers.data[player].serial)
+			return mPlayers.gui.Mute.show(player, playerData.serial)
 
 		end
 	  

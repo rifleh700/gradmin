@@ -1,19 +1,16 @@
 
-local SYNC_INTERVAL = 3 * 10^3
+local SYNC_INTERVAL = 5 * 10^3
 
-addEvent("gra.mFPS.sync", true)
+addEvent("gra.mFps.sync", true)
 
 mFps = {}
-
-mFps.players = {}
 
 function mFps.init()
 
 	setTimer(mFps.send, SYNC_INTERVAL, 0)
 
 	addEventHandler("onClientPreRender", root, mFps.onPreRender)
-	addEventHandler("onClientPlayerQuit", root, mFps.onPlayerQuit)
-	addEventHandler("gra.mFPS.sync", resourceRoot, mFps.sync)
+	addEventHandler("gra.mFps.sync", root, mFps.sync)
 
 	return true
 end
@@ -21,35 +18,31 @@ end
 addEventHandler("onClientResourceStart", resourceRoot, mFps.init)
 
 function mFps.send()
-	if not mFps.players[localPlayer] then return end
+	
+	local fps = cElementsData.get(localPlayer, "mFps.fps")
+	if not fps then return false end
 
-	return triggerLatentServerEvent("gra.mFPS.sync", localPlayer, mFps.players[localPlayer]) and true or false
+	return triggerLatentServerEvent("gra.mFps.sync", localPlayer, fps)
 end
 
 function mFps.onPreRender(msSinceLastFrame)
 
-	mFps.players[localPlayer] = math.floor((1 / msSinceLastFrame) * 1000)
+	cElementsData.set(localPlayer, "mFps.fps", math.floor((1 / msSinceLastFrame) * 1000))
 
 end
 
-function mFps.onPlayerQuit()
-	
-	mFps.players[source] = nil
+function mFps.sync(fps)
+	if not isElement(source) then return end
+	if source == localPlayer then return end
 
-end
-
-function mFps.sync(player, fps)
-	if not isElement(player) then return end
-	if player == localPlayer then return end
-
-	mFps.players[player] = fps
+	cElementsData.set(source, "mFps.fps", fps)
 
 end
 
 function mFps.get(player)
 	if not scheck("u:element:player") then return false end
 
-	return mFps.players[player]
+	return cElementsData.get(player, "mFps.fps")
 end
 
 ---------------  API  ---------------

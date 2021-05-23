@@ -66,6 +66,7 @@
 	<!-- ******** CORE.SERVER ******** -->
 	<script src="core/server/events.lua"							type="server" />
 	<script src="core/server/time.lua"								type="server" />
+	<script src="core/server/elementsdata.lua"						type="server" />
 	<script src="core/server/db.lua"								type="server" />
 	<script src="core/server/messages.lua"							type="server" />
 	<script src="core/server/penaltylogs.lua"						type="server" />
@@ -139,6 +140,7 @@
 
 	<!-- ******** CORE.CLIENT ******** -->
 	<script src="core/client/time.lua"								type="client" />
+	<script src="core/client/elementsdata.lua"						type="client" />
 	<script src="core/client/messages.lua"							type="client" />
 	<script src="core/client/globalsettings.lua"					type="client" />
 	<script src="core/client/session.lua"							type="client" />

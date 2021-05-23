@@ -1,38 +1,29 @@
 
-addEvent("gra.mFPS.sync", true)
+addEvent("gra.mFps.sync", true)
 
 mFps = {}
 
-mFps.players = {}
-
 function mFps.init()
 	
-	addEventHandler("onPlayerQuit", root, mFps.onPlayerQuit)
-	addEventHandler("gra.mFPS.sync", resourceRoot, mFps.sync)
+	addEventHandler("gra.mFps.sync", root, mFps.sync)
 
 	return true
 end
 
 addEventHandler("onResourceStart", resourceRoot, mFps.init)
 
-function mFps.onPlayerQuit()
-	
-	mFps.players[source] = nil
-
-end
-
 function mFps.sync(fps)
 	if not isElement(source) then return end
 	
-	mFps.players[source] = fps
-	triggerLatentClientEvent("gra.mFPS.sync", resourceRoot, source, fps)
+	cElementsData.set(source, "mFps.fps", fps)
+	triggerLatentClientEvent("gra.mFps.sync", source, fps)
 
 end
 
 function mFps.get(player)
 	if not scheck("u:element:player") then return false end
 
-	return mFps.players[player]
+	return cElementsData.get(player, "mFps.fps")
 end
 
 ---------------  API  ---------------

@@ -62,6 +62,12 @@ function table.removevalue(t, v)
 	return false
 end
 
+function table.empty(t)
+	check("t")
+
+	return next(t) ~= nil
+end
+
 function table.equal(t1, t2)
 	if type(t1) ~= type(t2) then return false end
 	if type(t1) ~= "table" then return t1 == t2 end
